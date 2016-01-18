@@ -38,8 +38,8 @@ footer {
 .top-navigation {
 	background-color: #fff;
 	height: 50px;
-	border-top: 2px solid #ed5171;
-	border-bottom: 4px solid #ed5171;
+	border-top: 1px solid #ed5171;
+	border-bottom: 3px solid #ed5171;
 	background-color: #5ea3c4;
 }
 
@@ -69,6 +69,7 @@ footer {
 	line-height: 2em;
 	margin-top: 2em;
 	font-weight: 300;
+	color: #ed5171;
 }
 
 .footer-menu, .footer-social {
@@ -124,6 +125,3 @@ footer {
 .fa-pinterest {
 	color: #C92228;
 }
-
-
-
