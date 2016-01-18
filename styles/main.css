@@ -22,6 +22,13 @@ body {
 	font-family: Nunito, arial, sans-serif;
 }
 
+section h1 {
+	font-family: hennypennyregular, times, serif;
+	font-size: 3em;
+	color: #5ea3c4;
+	text-shadow: 2px 2px #fbcfd4;
+}
+
 header, footer, .top-navigation, .content-portal {
 	width: 100%;
 }
@@ -45,7 +52,7 @@ footer {
 
 .menu-items {
 	text-align: center;
-	font-family: hennypennyregular, Times, serif;
+	font-family: hennypennyregular, times, serif;
 	padding-top: 7px;
 	margin: 0px;
 }
@@ -66,10 +73,26 @@ footer {
 .intro-poem {
 	font-size: 2em;
 	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 	line-height: 2em;
 	margin-top: 2em;
 	font-weight: 300;
 	color: #ed5171;
+	width: 75%;
+}
+
+.how-it-works {
+	text-align: center;
+	position: relative;
+}
+
+.how-it-works p {
+	font-size: 2em;
+	font-weight: 300;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .footer-menu, .footer-social {
@@ -124,4 +147,9 @@ footer {
 
 .fa-pinterest {
 	color: #C92228;
+}
+
+.image-at-bottom {
+	position: absolute;
+	bottom: 0px;
 }
