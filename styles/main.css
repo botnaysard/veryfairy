@@ -27,6 +27,14 @@ section h1 {
 	font-size: 3em;
 	color: #5ea3c4;
 	text-shadow: 2px 2px #fbcfd4;
+	text-align: center;
+}
+
+section p {
+	font-weight: 300;
+	font-size: 2em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header, footer, .top-navigation, .content-portal {
@@ -77,9 +85,13 @@ footer {
 	margin-left: auto;
 	line-height: 2em;
 	margin-top: 2em;
-	font-weight: 300;
 	color: #ed5171;
 	width: 75%;
+}
+
+.go-to-shop {
+	border: 1px solid #ed5171;
+	border-radius: 20px; 
 }
 
 .how-it-works {
@@ -88,11 +100,11 @@ footer {
 }
 
 .how-it-works p {
-	font-size: 2em;
-	font-weight: 300;
 	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
+}
+
+.about p {
+	width: 75%;
 }
 
 .footer-menu, .footer-social {
