@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="styles/slider.css">
 	<link rel="stylesheet" type="text/css" href="styles/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 	<script type="text/javascript"src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -14,10 +15,10 @@
 <body>
 	<header>
 	</header>
+	<div class="avfd-package-text">
+		<img src="images/vfd_title_600px.png">
+	</div>
 	<section class="top-navigation">
-		<div class="avfd-package-text">
-			<img src="images/vfd_title_600px.png">
-		</div>
 		<ul class="menu-items">
 			<li class="sparkles">How it Works</li>
 			<li class="sparkles">Fun Stuff</li>
@@ -25,34 +26,36 @@
 			<li class="sparkles">Shop</li>
 		</ul>
 	</section>
-	<section class="masthead">
-		<div class="masthead-book">
-			<img src="images/3d_box.png">
-		</div>	
-	</section>
-	<section class="intro-poem">
-		So much happiness comes from A Very Fairy Door:
-		<br>Like comfort, encouragement, laughter and more!
-		<br>When your child's not looking the fairies may bring
-		<br>a treasure, a note, or most anything!
-		<br>For sometimes magic is just what you need,
-		<br>to brighten a day or to plant a seed,
-		<br>to help through tough times or reward a great deed!
-		<div class="go-to-shop sparkles">
-			I want a Very Fairy Door - Take me to the shop! <i class="fa fa-hand-o-right"></i>
-		</div>
-	</section>
-	<section class="how-it-works">
-		<h1>How it Works</h1>
-		<p>Getting a Very Fairy Door is really special!</p>
-		<p>Here’s a message from your very fairy friends to guide you on what you can do to make it easier for them to come and visit.</p>
-		<p>A wall, shelf or garden will do.<br>Hang the door in a place that's special to you.</p>
-		<p>Once your door is hung, we can stop by and have some fun!</p>
-		<p>We love to visit children who use good manners and are kind, so be sure to keep these rules in mind</p>
-		<p>Do you know what's even better?  Doing nice things for others, like giving a letter.  Here's a little hint for you we love to get letters and drawings, too!</p>
-		<p>If we haven't visited in a while, be sure to keep your biggest smile.  When you're a fairy there's lots to do, but we will never forget about you.</p>
-		<p>We also love pictures of all our fun, so share some online with everyone!</p>
-		<p>If you're wondering why we visit at night, it's because that's when our world is light.</p>
+	<section class="page-content">
+		<div class="slider-container">
+			<div class="csslider">
+	        	<input type="radio" name="slides" id="slides_1" checked />
+	        	<input type="radio" name="slides" id="slides_N" />
+	        	<ul>
+	            	<li><img src="images/3d_box.jpg"></li>
+	            	<li>
+	            		<div class="intro-poem">
+							So much happiness comes from A Very Fairy Door:
+							<br>Like comfort, encouragement, laughter and more!
+							<br>When your child's not looking the fairies may bring
+							<br>a treasure, a note, or most anything!
+							<br>For sometimes magic is just what you need,
+							<br>to brighten a day or to plant a seed,
+							<br>to help through tough times or reward a great deed!
+						</div>
+	            	</li>
+	        	</ul>
+	        	<div class="arrows">
+	            	<label for="slides_1"></label>
+	            	<label for="slides_N"></label>
+	        	</div>
+	        	<div class="navigation">
+	            <div>
+	                <label for="slides_1"></label>
+	                <label for="slides_N"></label>
+	            </div>
+	        </div>
+	    </div>	
 	</section>
 	<footer>
 		<div class="footer-menu">
