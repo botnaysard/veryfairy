@@ -45,10 +45,25 @@ header, footer {
 	text-align: center;
 }
 
+header {
+	padding: 1em;
+	background-color: #fff;
+	background-image:url('../images/wallpaper.jpg');
+    background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: 0% 25%;
+  	height: 30px;
+}
+
 footer {
 	padding: 1em;
 	background-color: #fff;
-}
+	background-image:url('../images/wallpaper.jpg');
+    background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: bottom;
+  	height: 200px;
+  }
 
 .top-navigation {
 	background-color: #fff;
@@ -58,11 +73,18 @@ footer {
 	background-color: #5ea3c4;
 }
 
+.avfd-package-text {
+	display: absolute;
+	top: 0px;
+	left: 0px;
+}
+
 .menu-items {
-	text-align: center;
-	font-family: hennypennyregular, times, serif;
-	padding-top: 7px;
-	margin: 0px;
+	text-align: right;
+	font-family: Nunito, times, serif;
+	padding-top: 0px;
+	margin-top: -80px;
+	vertical-align: middle;
 }
 
 .menu-items li, .footer-menu li, .footer-social li {
@@ -97,6 +119,8 @@ footer {
 .how-it-works {
 	text-align: center;
 	position: relative;
+	border-bottom: 3px solid #ed5171;
+	box-shadow: 0px 1px 20px 1px #999;
 }
 
 .how-it-works p {
@@ -129,11 +153,10 @@ footer {
 }
 
 .masthead {
-	padding: 50px 0;
+	/* padding: 50px 0;
     background-image: url('../images/wallpaper.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 0%;
+    background-size: cover; */
 }
 
 .masthead-title {
@@ -147,6 +170,14 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1em;
+}
+
+.masthead-about {
+	padding: 300px 0;
+    background-image: url('../images/about-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 5%;
 }
 
 .fa-facebook-official {
