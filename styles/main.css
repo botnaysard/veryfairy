@@ -49,17 +49,17 @@ header, footer {
 header {
 	padding: 1em;
 	background-color: #fff;
-	background-image:url('../images/wallpaper.jpg');
+	background-image:url('../images/wallpaper-light.jpg');
     background-repeat: no-repeat;
   	background-size: cover;
-  	background-position: 0% 25%;
+  	background-position: 0% 20%;
   	height: 30px;
 }
 
 footer {
 	padding: 1em;
 	background-color: #fff;
-	background-image:url('../images/carpet.jpg');
+	background-image:url('../images/carpet-light.jpg');
     background-repeat: no-repeat;
   	background-size: cover;
   	background-position: bottom;
@@ -128,6 +128,7 @@ footer {
 .footer-menu li {
 	margin-left: 1.5em;
 	margin-right: 1.5em;
+	font-size: 1.5em;
 }
 
 .footer-social li{
@@ -136,7 +137,7 @@ footer {
 }
 
 .slider-container {
-	width: 800px;
+	width: 1000px;
 	height: 620px;
 	margin-left: auto;
 	margin-right: auto;
@@ -144,17 +145,9 @@ footer {
 }
 
 .page-content {
-	box-shadow: 0 4px 2px -3px;
 	padding-bottom: 100px;
 	position: relative;
 	z-index: 50;
-}
-.masthead-about {
-	padding: 300px 0;
-    background-image: url('../images/about-wallpaper.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 5%;
 }
 
 .fa-facebook-official {
