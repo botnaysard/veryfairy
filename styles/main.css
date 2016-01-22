@@ -44,9 +44,6 @@ header, footer, .top-navigation, .content-portal {
 
 header, footer {
 	text-align: center;
-}
-
-header {
 	padding: 1em;
 	background-color: #fff;
 	background-image:url('../images/wallpaper-light.jpg');
@@ -56,39 +53,15 @@ header {
   	height: 30px;
 }
 
-footer {
-	padding: 1em;
-	background-color: #fff;
-	background-image:url('../images/carpet-light.jpg');
-    background-repeat: no-repeat;
-  	background-size: cover;
-  	background-position: bottom;
-  	height: 200px;
-  	position: relative;
-  }
-
 .top-navigation {
-	background-color: #fff;
 	height: 50px;
 	background-color: #5ea3c4;
-	z-index: 10;
-
-}
-
-.avfd-package-text {
-	position: absolute;
-	top: 25px;
-	left: 10px;
-	border: 1px;
-	z-index: 100;
 }
 
 .menu-items {
-	text-align: right;
 	font-family: Nunito, times, serif;
 	padding-top: 0px;
 	margin-top: 0px;
-	vertical-align: middle;
 }
 
 .menu-items li, .footer-menu li, .footer-social li {
@@ -96,12 +69,19 @@ footer {
 }
 
 .menu-items li {
-	height: 50px;
+	height: 1.5em;
 	margin-top: 7px;
 	margin-left: 1em;
-	margin-right: 1em;
 	font-size: 1.5em;
-	color: #fff;
+	color: white;
+	vertical-align: middle;
+}
+
+.avfd-logo img{
+	margin-top: -50px;
+	margin-left: -1.5em;
+	margin-right: 3em;
+
 }
 
 .intro-poem {
@@ -112,6 +92,14 @@ footer {
 	margin-top: 75px;
 	line-height: 2em;
 	color: #000;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.additional-content {
+	background-color: #5ea3c4;
+	color: white;
+	padding: 1.5em;
 }
 
 .footer-menu, .footer-social {
@@ -119,6 +107,7 @@ footer {
 	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 
 .footer-menu ul, .footer-social ul { 
@@ -141,25 +130,13 @@ footer {
 	height: 620px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0px;
 }
 
 .page-content {
-	padding-bottom: 100px;
+	padding-bottom: 1em;
 	position: relative;
 	z-index: 50;
 }
 
-.fa-facebook-official {
-	color: #3b5998;
-}
-
-.fa-twitter-square {
-	color: #4099FF;
-}
-
-.fa-pinterest {
-	color: #C92228;
-}
 
 
