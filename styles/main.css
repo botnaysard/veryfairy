@@ -94,6 +94,7 @@ header, footer {
 	color: #000;
 	padding-top: 1em;
 	padding-bottom: 2em;
+	font-weight: 300;
 }
 
 .additional-content {
@@ -136,6 +137,28 @@ header, footer {
 	padding-bottom: 1em;
 	position: relative;
 	z-index: 50;
+}
+
+.how-to {
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 300;
+}
+
+.how-to li {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+.image-block-how-to {
+	background-color: #fff;
+	background-image:url('../images/how-to-about.jpg');
+    background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: 0% 50%;
+  	height: 400px;
+  	margin-top: 3em;
 }
 
 
