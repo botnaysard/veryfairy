@@ -20,90 +20,59 @@ html,body {
 
 body {
 	font-family: Nunito, arial, sans-serif;
-	position: relative;
-}
-
-section h1 {
-	font-family: hennypennyregular, times, serif;
-	font-size: 3em;
-	color: #5ea3c4;
-	text-shadow: 2px 2px #fbcfd4;
-	text-align: center;
-}
-
-section p {
-	font-weight: 300;
-	font-size: 2em;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-header, footer, .top-navigation, .content-portal {
-	width: 100%;
-}
-
-header, footer {
-	text-align: center;
-	padding: 1em;
-	background-color: #fff;
-	background-image:url('../images/wallpaper-light.jpg');
+	background-image:url('../images/wallpaper.jpg');
     background-repeat: no-repeat;
   	background-size: cover;
-  	background-position: 0% 20%;
-  	height: 30px;
+  	background-position: 0% 0%;
+}
+
+header {
+	background-color: #ff66b3;
+	color: white;
+	height: 3em;
+	font-weight: 300;
+	text-align: center;
+}
+
+header div {
+	height: 3em;
+	line-height: 3em;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+footer {
+	text-align: center;
+	padding: 1em;
+	background-color: #ff66b3;
+	color: white;
 }
 
 .top-navigation {
-	height: 50px;
-	background-color: #5ea3c4;
-}
-
-.menu-items {
-	font-family: Nunito, times, serif;
-	padding-top: 0px;
-	margin-top: 0px;
-	width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
+	vertical-align: bottom;
+	width: 80%;
+	margin: 0px auto 0px auto;
+	background-color: white;
 }
 
 .menu-items li, .footer-menu li, .footer-social li {
 	display: inline-block;
 }
 
-.menu-items li {
-	height: 1.5em;
-	margin-top: 7px;
-	margin-left: 1em;
-	font-size: 1.5em;
-	color: white;
-	vertical-align: middle;
-}
-
-.avfd-logo img{
-	margin-top: -50px;
-	margin-left: -1.5em;
-	margin-right: 3em;
-
-}
-
-.intro-poem {
-	font-size: 2em;
+.menu-items, .avfd-logo {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
 	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 75px;
-	line-height: 2em;
-	color: #000;
-	padding-top: 1em;
-	padding-bottom: 2em;
-	font-weight: 300;
 }
 
-.additional-content {
-	background-color: #5ea3c4;
-	color: white;
-	padding: 1.5em;
+.menu-items {
+	font-size: 1.5em;
+	color: black;
+}
+
+.menu-items li {
+	padding: 0px 0.5em 0px 0.5em;
 }
 
 .footer-menu, .footer-social {
@@ -129,40 +98,8 @@ header, footer {
 	margin-right: 0.75em;
 }
 
-.slider-container {
-	width: 1000px;
-	height: 620px;
-	margin-left: auto;
-	margin-right: auto;
-}
 
-.page-content {
-	padding-bottom: 1em;
-	position: relative;
-	z-index: 50;
-}
 
-.how-to {
-	width: 65%;
-	margin-left: auto;
-	margin-right: auto;
-	font-weight: 300;
-}
-
-.how-to li {
-	font-size: 1.5em;
-	margin-bottom: 1em;
-}
-
-.image-block-how-to {
-	background-color: #fff;
-	background-image:url('../images/how-to-about.jpg');
-    background-repeat: no-repeat;
-  	background-size: cover;
-  	background-position: 0% 50%;
-  	height: 400px;
-  	margin-top: 3em;
-}
 
 
 

@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	/* sparkling menu items */
 
-	$('.sparkles').sparkle({
+	$('.sparkles-light').sparkle({
 		color: ["#ffebf4", "#ffcce3", "#d6e2f5", "#adc5eb", "#ffffff"],
 		count: 15,
 		overlap: 10,
