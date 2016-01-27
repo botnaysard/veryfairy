@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
 	/* sparkling menu items */
+	/* NOTE: add some code that will adjust the number of sparkles based onthe width of the element */
 
 	$('.sparkles-light').sparkle({
 		color: ["#ffebf4", "#ffcce3", "#d6e2f5", "#adc5eb", "#ffffff"],
@@ -11,4 +12,5 @@ $(document).ready(function() {
 		maxSize: 10,
 		direction: "both"
 	});
+
 });

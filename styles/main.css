@@ -20,10 +20,6 @@ html,body {
 
 body {
 	font-family: Nunito, arial, sans-serif;
-	background-image:url('../images/wallpaper.jpg');
-    background-repeat: no-repeat;
-  	background-size: cover;
-  	background-position: 0% 0%;
 }
 
 header {
@@ -51,7 +47,7 @@ footer {
 .top-navigation {
 	vertical-align: bottom;
 	width: 80%;
-	margin: 0px auto 0px auto;
+	margin: 1em auto 0em auto;
 	background-color: white;
 }
 
@@ -68,11 +64,23 @@ footer {
 
 .menu-items {
 	font-size: 1.5em;
+	font-weight: 300;
 	color: black;
+	margin: 0.5em 0em 1em 0em;
 }
 
 .menu-items li {
 	padding: 0px 0.5em 0px 0.5em;
+}
+
+.masthead {
+	width: 80%;
+	height: 600px;
+	background-image:url('../images/masthead-front-cover.jpg');
+    background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: 0% 0%;
+  	margin: 0px auto 0px auto;
 }
 
 .footer-menu, .footer-social {
