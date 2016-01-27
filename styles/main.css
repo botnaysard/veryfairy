@@ -62,6 +62,9 @@ header, footer {
 	font-family: Nunito, times, serif;
 	padding-top: 0px;
 	margin-top: 0px;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .menu-items li, .footer-menu li, .footer-social li {
