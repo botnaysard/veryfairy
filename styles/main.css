@@ -20,14 +20,14 @@ html,body {
 }
 
 body {
-	font-family: Josefin Slab, arial, sans-serif;
+	font-family: Lato, arial, sans-serif;
 }
 
 header {
 	background-color: #ff66b3;
 	color: white;
 	height: 3em;
-	font-weight: 400;
+	font-weight: 300;
 	text-align: center;
 	position: relative;
 }
@@ -44,11 +44,13 @@ footer {
 	padding-top: 7em;
 	background-color: #ff66b3;
 	color: white;
-	font-family: Nunito;
+	font-weight: 400;
 }
 h1 {
-	font-family: hennypennyregular;
-	font-size: 1.5em;
+	font-family: hennypennyregular, times, serif;
+	font-size: 2em;
+	color: #ff99cc;
+	text-shadow: 1px 1px 0px #ff66b3, 2px 2px 0px #ff66b3, 3px 3px 0px #ff66b3, 5px 5px 4px #a6a6a6;
 }
 
 .top-navigation {
@@ -69,16 +71,16 @@ h1 {
 	text-align: center;
 }
 
-.avfd-logo img{
-	padding-left: 35px;
-}
-
 .menu-items {
 	font-size: 2.1em;
 	font-weight: 400;
-	color: black;
-	margin: 0.5em 0em 1em 0em;
+	color: #5ea3c4;
+	margin: 0.5em auto 1em auto;
+	padding: 0px;
 	text-align: center;
+	font-weight: 700;
+	width: 800px;
+	text-shadow: 1px 1px 0px #377795;
 }
 
 .menu-items li {
@@ -88,7 +90,7 @@ h1 {
 }
 
 .pre-order-top {
-	width: 500px;
+	width: 550px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -100,7 +102,6 @@ h1 {
 }
 
 .masthead {
-	width: 80%;
 	height: 600px;
 	width: 1067px;
 	margin: 0px auto 0px auto;
@@ -108,14 +109,14 @@ h1 {
 
 .list-box {
 	position: absolute;
-	right: 10px;
-	top: -5px;
+	right: -10px;
+	top: 10px;
 }
 
 .join-list {
 	position: absolute;
-	top: 70px;
-	right: 70px;
+	top: 85px;
+	right: 50px;
 	width: 150px;
 	line-height: 1.5em;
 	color: black;
@@ -126,9 +127,9 @@ h1 {
 .page-content{
 	width: 80%;
 	font-size: 2em;
-	margin: 2em auto 0em auto;
+	margin: 2em auto 2em auto;
 	line-height: 2em;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .content-text-centered {
@@ -137,6 +138,10 @@ h1 {
 
 .content-text-left{
 	text-align: left;
+}
+
+.small-text {
+	font-size: 0.8em;
 }
 
 .bottom-stuff {
@@ -199,7 +204,7 @@ h1 {
 	margin-right: 1.5em;
 }
 
-.booger {
+.very-bottom {
 	height: 75px;
 	background-image:url('../images/carpet.jpg');
     background-repeat: no-repeat;
