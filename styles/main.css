@@ -46,6 +46,7 @@ footer {
 	color: white;
 	font-weight: 400;
 }
+
 h1 {
 	font-family: hennypennyregular, times, serif;
 	font-size: 2em;
@@ -71,6 +72,11 @@ h1 {
 	text-align: center;
 }
 
+.avfd-logo a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
 .menu-items {
 	font-size: 2.1em;
 	font-weight: 400;
@@ -87,6 +93,21 @@ h1 {
 	display: inline-block;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
+}
+
+.menu-items a {
+	text-decoration: none;
+	color: #5ea3c4;	
+}
+
+.menu-items a:hover {
+	cursor: pointer;
+	color: #ff99cc;
+	text-shadow: 1px 1px 0px #ff66b3;
+}
+
+.current-page {
+	border-bottom: 1px solid #ff66b3;
 }
 
 .pre-order-top {
