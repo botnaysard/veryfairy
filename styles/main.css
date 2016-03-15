@@ -225,6 +225,69 @@ h1 {
 	margin-right: 1.5em;
 }
 
+.how-to-table {
+	width: 950px;
+	margin-bottom: -200px;
+}
+
+.how-to-row {
+	width: 100%;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.how-to-fairy {
+	display: inline-block;
+	width: 400px;
+}
+
+.bubble{
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 6px #B2B2B2;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+    width: 400px;
+}
+
+.bubble::before {
+    background-color: white;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 70px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+}
+
+.faceright {
+    float: right;   
+    margin: 50px 45px 5px 0px;         
+}
+
+.faceright::before {
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px;           
+}
+
+.faceleft {
+    float: left;    
+    margin: 50px 60px 5px 45px;         
+}
+
+.faceleft::before {
+    box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4 );
+    right: -9px;    
+}
+
 .very-bottom {
 	height: 75px;
 	background-image:url('../images/carpet.jpg');
