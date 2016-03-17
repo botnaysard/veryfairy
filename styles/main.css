@@ -116,6 +116,12 @@ h1 {
 	margin-right: auto;
 }
 
+.pre-order-top a {
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+
 .flags-container {
 	position: absolute;
 	top: 5px;
@@ -165,6 +171,11 @@ h1 {
 	font-size: 0.8em;
 }
 
+.flourish-center {
+	width: 300px;
+	margin: 0 auto 0 auto;
+}
+
 .bottom-stuff {
 	height: 160px;
 	vertical-align: top;
@@ -186,11 +197,25 @@ h1 {
 	margin-left: 75px;
 }
 
+.mushroom {
+	display: block;
+	float: left;
+	margin-left: 75px;
+	margin-top: -60px;
+}
+
 .boots {
 	display: block;
 	float: right;
 	margin-right: 60px;
 	margin-top: 30px;
+}
+
+.butterfly {
+	display: block;
+	float: right;
+	margin-right: 120px;
+	margin-top: -20px;
 }
 
 
@@ -226,6 +251,8 @@ h1 {
 }
 
 .how-to-table {
+	margin-left: auto;
+	margin-right: auto;
 	width: 950px;
 	margin-bottom: -200px;
 }
