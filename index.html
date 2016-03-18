@@ -6,7 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="styles/slider.css">
 	<link rel="stylesheet" type="text/css" href="styles/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-	<script type="text/javascript"src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="scripts/jquery-canvas-sparkles.min.js"></script>
 	<script type="text/javascript" src="scripts/veryfairy.js"></script>
 	<meta charset="UTF-8">
@@ -23,7 +24,7 @@
 		<div class="list-box">
 			<img src="images/list.png">
 		</div>
-		<div class="join-list">
+		<div id="join-list">
 			Join our mailing list!
 		</div>
 	</header>
@@ -82,5 +83,15 @@
 		<div class="very-bottom">
 		</div>
 	</footer>
+	
+	<!-- dialog boxes and pop-ups -->
+
+	<!-- dark overlay that lies behind the popups -->
+
+	<div id="dark-overlay"></div>
+	<div id="mailinglist-popup">
+		<div id="close-overlay">X</div>
+	</div>
+
 </body>
 </html>

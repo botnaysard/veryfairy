@@ -140,15 +140,20 @@ h1 {
 	top: 10px;
 }
 
-.join-list {
+#join-list {
 	position: absolute;
 	top: 85px;
 	right: 50px;
 	width: 150px;
+	height: auto;
 	line-height: 1.5em;
 	color: black;
 	font-family: hennypennyregular;
 	font-size: 2em;
+}
+
+#join-list:hover {
+	cursor: pointer;
 }
 
 .page-content{
@@ -171,10 +176,15 @@ h1 {
 	font-size: 0.8em;
 }
 
+
+/*
+
 .flourish-center {
 	width: 300px;
 	margin: 0 auto 0 auto;
 }
+
+*/
 
 .bottom-stuff {
 	height: 160px;
@@ -197,12 +207,16 @@ h1 {
 	margin-left: 75px;
 }
 
+/*
+
 .mushroom {
 	display: block;
 	float: left;
 	margin-left: 75px;
 	margin-top: -60px;
 }
+
+*/
 
 .boots {
 	display: block;
@@ -211,6 +225,8 @@ h1 {
 	margin-top: 30px;
 }
 
+/*
+
 .butterfly {
 	display: block;
 	float: right;
@@ -218,6 +234,7 @@ h1 {
 	margin-top: -20px;
 }
 
+*/
 
 .footer-menu, .footer-social {
 	width: 40%;
@@ -323,6 +340,49 @@ h1 {
   	background-position: 0% 0%;
 }
 
+/* coming soon overlay */
+
+#dark-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: black;
+	opacity: .7;
+	z-index: 1000;
+	display: none;
+}
+
+#mailinglist-popup {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 500px;
+	width: 600px;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	z-index: 1002;
+	display: none;
+}
+
+#close-overlay {
+	display: none;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	display: block;
+	z-index: 1003;
+	color: red;
+}
+
+#close-overlay:hover {
+	cursor: pointer;
+	color: blue;
+}
 
 
 
