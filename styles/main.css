@@ -376,7 +376,7 @@ h1 {
 .popup-text {
 	color: black;
 	z-index: 1003;
-	margin: 0px 35px 0px 35px;
+	margin: 0px 25px 0px 35px;
 	font-family: lato, arial, sans-serif;
 	font-size: 1.5em;
 	font-weight: 300;
@@ -390,6 +390,8 @@ h1 {
 	display: block;
 	z-index: 1003;
 	color: black;
+	font-weight: 700;
+	font-size: 1.5em;
 }
 
 #close-overlay:hover {
@@ -397,13 +399,40 @@ h1 {
 	color: red;
 }
 
+#notification_container {
+	width: 100%;
+	text-align: center;
+	margin: 20px 10px;
+	
+}
+
+.success, .alert {
+	margin: 0px 35px 0px 35px;
+	font-family: lato, arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	display: block;
+}
+
+.success {
+	margin-top: 120px;
+	vertical-align: middle;
+	color: #2eb82e;
+
+}
+
+.alert {
+	color: red;
+}
+
+
 /* MailChimp Form Embed Code - Slim - 12/15/2015 v10.7 */
 
 #mc_embed_signup {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	height: 350px;
+	height: 400px;
 	width: 600px;
 	left: 0;
 	right: 0;
@@ -412,6 +441,7 @@ h1 {
 	background-color: white;
 	z-index: 1002;
 	padding-top: 50px;
+	font-size: 0.9em;
 }
 
 #mc_embed_signup form { 
