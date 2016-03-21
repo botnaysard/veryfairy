@@ -1,8 +1,6 @@
 $(document).ready(function() {
 
-	/* sparkling menu items */
-	/* NOTE: add some code that will adjust the number of sparkles based onthe width of the element */
-
+	/* START - SPARKLE ON HIGHLIGHT */
 	$(".sparkles-light").sparkle({
 		color: ["#ffebf4", "#ffcce3", "#d6e2f5", "#adc5eb", "#ffffff"],
 		count: 15,
@@ -12,23 +10,20 @@ $(document).ready(function() {
 		maxSize: 10,
 		direction: "both"
 	});
+	/* END - SPARKLE ON HIGHLIGHT */
 
-	/* overlay for mailing list join */
-
+	/* START - MAILING LIST POP-UP */
 	$("#join-list").click(function(event){
 		$( "#dark-overlay" ).fadeIn( "slow", function() {
-			$("#mailinglist-popup").show();
+			$("#mc_embed_signup").show();
         	$("#close-overlay" ).show();
         	$("#close-overlay" ).click(function(){
-        		$("#mailinglist-popup").hide();
+        		$("#mc_embed_signup").hide();
         		$("#dark-overlay" ).hide();
         		$("#close-overlay" ).hide();
     		});
   		});
 	});
+	/* END - SPARKLE ON HIGHLIGHT */
 
-
-
-
-	
 });
