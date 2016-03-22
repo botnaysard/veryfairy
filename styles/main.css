@@ -183,14 +183,10 @@ h1 {
 }
 
 
-/*
-
 .flourish-center {
-	width: 300px;
+	width: 616px;
 	margin: 0 auto 0 auto;
 }
-
-*/
 
 .bottom-stuff {
 	height: 160px;
@@ -417,7 +413,7 @@ h1 {
 .success {
 	margin-top: 120px;
 	vertical-align: middle;
-	color: #2eb82e;
+	color: black;
 
 }
 
