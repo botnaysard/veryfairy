@@ -43,7 +43,7 @@ footer {
 	text-align: center;
 	padding-top: 7em;
 	background-color: #ff66b3;
-	color: white;
+	color: #ffcce6;
 	font-weight: 400;
 }
 
@@ -52,6 +52,14 @@ h1 {
 	font-size: 2em;
 	color: #ff99cc;
 	text-shadow: 1px 1px 0px #ff66b3, 2px 2px 0px #ff66b3, 3px 3px 0px #ff66b3, 5px 5px 4px #a6a6a6;
+}
+
+h3 {
+	font-family: Lato, arial, sans-serif;
+	size: 1.5em;
+	font-weight: 700;
+	margin: 0 0 15px 0;
+	text-align: center;
 }
 
 .top-navigation {
@@ -115,6 +123,7 @@ h1 {
 	width: 550px;
 	margin-left: auto;
 	margin-right: auto;
+	color: #ffcce6;
 }
 
 .pre-order-top a {
@@ -209,34 +218,12 @@ h1 {
 	margin-left: 75px;
 }
 
-/*
-
-.mushroom {
-	display: block;
-	float: left;
-	margin-left: 75px;
-	margin-top: -60px;
-}
-
-*/
-
 .boots {
 	display: block;
 	float: right;
 	margin-right: 60px;
 	margin-top: 30px;
 }
-
-/*
-
-.butterfly {
-	display: block;
-	float: right;
-	margin-right: 120px;
-	margin-top: -20px;
-}
-
-*/
 
 .footer-menu, .footer-social {
 	width: 40%;
@@ -265,8 +252,8 @@ h1 {
 }
 
 .footer-social li {
-	margin-left: 1.5em;
-	margin-right: 1.5em;
+	margin-left: 3em;
+	margin-right: 3em;
 }
 
 .footer-menu a, .footer-social a {
@@ -352,6 +339,24 @@ h1 {
   	background-position: 0% 0%;
 }
 
+.very-bottom p {
+	font-family: Lato, arial, sans-serif;
+	color: white;
+	margin: 0 auto 0 auto;
+	width: 150px;
+	padding-top: 45px;
+	font-weight: 400;
+}
+
+.very-bottom a {
+	text-decoration: none;
+	color: white;
+}
+
+.very-bottom a:hover {
+	text-decoration: underline;
+}
+
 /* Pop-ups */
 
 #dark-overlay {
@@ -421,6 +426,32 @@ h1 {
 	color: red;
 }
 
+.press-media {
+	width: 600px;
+	margin: 35px auto 100px auto;
+	text-align: center;
+}
+
+.press-media a {
+	text-decoration: none; 
+}
+
+.press-media a:hover {
+	cursor: pointer; 
+}
+
+.privacy-content {
+	font-weight: 300;
+	width: 80%;
+	font-size: 1.5em;
+	margin: 1em auto 1em auto;
+	line-height: 1em;
+	font-weight: 300;
+}
+
+.privacy-content h4 {
+	font-weight: 400;
+}
 
 /* MailChimp Form Embed Code - Slim - 12/15/2015 v10.7 */
 
