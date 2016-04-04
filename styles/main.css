@@ -168,7 +168,7 @@ h3 {
 
 #join-list:hover {
 	cursor: pointer;
-	color: #99004d;
+	color: #666;
 }
 
 .page-content{
@@ -444,7 +444,7 @@ h3 {
 	font-weight: 300;
 	width: 80%;
 	font-size: 1.5em;
-	margin: 1em auto 1em auto;
+	margin: 1em auto 5em auto;
 	line-height: 1em;
 	font-weight: 300;
 }
