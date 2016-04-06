@@ -47,11 +47,12 @@ footer {
 	font-weight: 400;
 }
 
-h1 {
+.page-content h1 {
 	font-family: hennypennyregular, times, serif;
 	font-size: 2em;
 	color: #ff99cc;
 	text-shadow: 1px 1px 0px #ff66b3, 2px 2px 0px #ff66b3, 3px 3px 0px #ff66b3, 5px 5px 4px #a6a6a6;
+	margin: 0px;
 }
 
 h3 {
@@ -106,7 +107,7 @@ h3 {
 
 .menu-items a {
 	text-decoration: none;
-	color: #5ea3c4;	
+	color: #5ea3c4;
 }
 
 .menu-items a:hover {
@@ -190,7 +191,6 @@ h3 {
 .small-text {
 	font-size: 0.8em;
 }
-
 
 .flourish-center {
 	width: 616px;
@@ -451,6 +451,85 @@ h3 {
 
 .privacy-content h4 {
 	font-weight: 400;
+}
+
+/* Slider */
+
+.slider-container {
+	width: 1000px;
+	height: 620px;
+	margin: 0 auto 6em auto;
+}
+
+
+/* Shop */ 
+
+.shop-header {
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	color: #5ea3c4;	
+	text-shadow: #377795;
+	font-family: hennypennyregular, times, serif;
+	text-shadow: 1px 1px 0px #377795, 2px 2px 0px #377795, 3px 3px 0px #377795, 5px 5px 4px #377795;
+	margin: 0px auto 0px auto;
+}
+
+.shop-header h1 {
+	margin: -20px 0 -15px 0;
+}
+
+.shop-text {
+	font-size: 1.4em;
+	text-align: left;
+	width: 60%;
+}
+
+.shop-bottom {
+	font-family: Lato, arial, sans-serif;
+	margin: 1em auto 1em auto;
+	width: 100%;
+	text-align: center;
+	font-weight: 300;
+}
+
+.shop-bottom a {
+	text-decoration: none;
+	color: #222;
+}
+
+.shop-bottom a:hover {
+	text-decoration: underline;
+}
+
+.shop-social {
+	width: 140px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10em;
+}
+
+.shop-social ul { 
+	padding: 0px;
+	list-style-type: none;
+}
+
+.shop-social li {
+	display: inline;
+}
+
+.shop-social a {
+	text-decoration: none;
+	color: #ccc;
+}
+
+.shop-social a:hover {
+	color: #666;
+	cursor: pointer;
+}
+
+.shop-twitter {
+	margin-left: 54px;
 }
 
 /* MailChimp Form Embed Code - Slim - 12/15/2015 v10.7 */
