@@ -35,6 +35,7 @@ $(document).ready(function() {
     		});
   		});
 	});
+
 	/* END - MAILING LIST POP-UP*/
 
 	/* START - MAILING LIST AJAX */
@@ -62,6 +63,7 @@ $(document).ready(function() {
 	    	}
 	  	});
 	}
+
 	/* END - MAILING LIST AJAX */
 
 });

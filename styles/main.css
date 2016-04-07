@@ -52,7 +52,7 @@ footer {
 	font-size: 2em;
 	color: #ff99cc;
 	text-shadow: 1px 1px 0px #ff66b3, 2px 2px 0px #ff66b3, 3px 3px 0px #ff66b3, 5px 5px 4px #a6a6a6;
-	margin: 0px;
+	margin: 0 0 .5em 0;
 }
 
 h3 {
@@ -357,7 +357,10 @@ h3 {
 	text-decoration: underline;
 }
 
-/* Pop-ups */
+/* START POPUPS */
+
+
+/* Dark Overlay */
 
 #dark-overlay {
 	position: absolute;
@@ -370,7 +373,9 @@ h3 {
 	z-index: 1000;
 }
 
-.mailing-list-toggle {
+/* Common */
+
+.toggle {
 	display: none;
 }
 
@@ -400,6 +405,8 @@ h3 {
 	color: red;
 }
 
+/* E-mail List Sign-up */
+
 #notification_container {
 	width: 100%;
 	text-align: center;
@@ -426,6 +433,8 @@ h3 {
 	color: red;
 }
 
+/* END POPUPS */
+
 .press-media {
 	width: 600px;
 	margin: 35px auto 100px auto;
@@ -444,13 +453,18 @@ h3 {
 	font-weight: 300;
 	width: 80%;
 	font-size: 1.5em;
-	margin: 1em auto 5em auto;
+	margin: 2em auto 3em auto;
 	line-height: 1em;
 	font-weight: 300;
 }
 
+.privacy-content h1 {
+	margin-bottom: 1.2em;
+}
+
 .privacy-content h4 {
 	font-weight: 400;
+	margin-top: 2em;
 }
 
 /* Slider */
@@ -503,7 +517,7 @@ h3 {
 }
 
 .shop-social {
-	width: 140px;
+	width: 120px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10em;
@@ -529,7 +543,7 @@ h3 {
 }
 
 .shop-twitter {
-	margin-left: 54px;
+	margin-left: 34px;
 }
 
 /* MailChimp Form Embed Code - Slim - 12/15/2015 v10.7 */
