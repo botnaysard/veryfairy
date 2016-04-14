@@ -169,7 +169,7 @@ h3 {
 
 #join-list:hover {
 	cursor: pointer;
-	color: #666;
+	color: #4d0033;
 }
 
 .page-content{
@@ -190,6 +190,10 @@ h3 {
 
 .small-text {
 	font-size: 0.8em;
+}
+
+.very-small-text {
+	font-size: 0.5em;
 }
 
 .flourish-center {
@@ -332,20 +336,20 @@ h3 {
 }
 
 .very-bottom {
-	height: 75px;
+	height: 150px;
 	background-image:url('../images/carpet.jpg');
     background-repeat: no-repeat;
   	background-size: cover;
   	background-position: 0% 0%;
+  	width: 100%;
 }
 
 .very-bottom p {
 	font-family: Lato, arial, sans-serif;
 	color: white;
-	margin: 0 auto 0 auto;
-	width: 150px;
+	text-align: center;
 	padding-top: 45px;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .very-bottom a {
@@ -389,7 +393,7 @@ h3 {
 	display: block;
 }
 
-#close-overlay {
+#close-overlay, #close-contact {
 	position: absolute;
 	top: 20px;
 	right: 20px;
@@ -397,12 +401,89 @@ h3 {
 	z-index: 1003;
 	color: black;
 	font-weight: 700;
-	font-size: 1.5em;
+	font-size: 20px !important;
 }
 
-#close-overlay:hover {
+#close-overlay:hover, #close-contact:hover {
 	cursor: pointer;
 	color: red;
+}
+
+#close-contact {
+	top: -5px;
+}
+
+/* Contact Form */
+
+#contact-us {
+	border: 1px solid black;
+	width: 650px;
+	height: 570px;
+	margin: 0 auto;
+	padding: 0px;
+	background-color: white;
+	z-index: 1002;	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: white;
+	z-index: 1002;
+	left: 0;
+	right: 0;
+	font-weight: 300;
+	font-size: 1.3em;
+}
+
+#contact-us form {
+	width: 600px;
+	margin: 0 auto;
+}
+
+#contact-us input, #contact-us textarea, #contact-us label {
+	display: block;
+	width: 85%;
+	margin: 0 auto;
+}
+
+#contact-us div {
+	margin-top: 1em;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#contact-us label {
+	margin-top: 1em;
+	margin-bottom: 0.2em;
+}
+
+#contact-us textarea {
+	height: 80px;
+}
+
+#contact-us input, #contact-us textarea {
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#contact-us input[type="submit"] {
+	width: 100px;
+	margin-top: 1.5em;
+	color: #ffcce6;
+	background-color: #ff66b3;
+	border: none;
+	height: 2em;
+	font-weight: 400;
+	transition: all 0.23s ease-in-out 0s;
+}
+
+#contact-us input[type="submit"]:hover {
+	color: white;
+	cursor: pointer;
+}
+
+#initiate-contact:hover {
+	color: white;
+	cursor: pointer;
 }
 
 /* E-mail List Sign-up */
@@ -411,7 +492,6 @@ h3 {
 	width: 100%;
 	text-align: center;
 	margin: 20px 10px;
-	
 }
 
 .success, .alert {
@@ -453,7 +533,7 @@ h3 {
 	font-weight: 300;
 	width: 80%;
 	font-size: 1.5em;
-	margin: 2em auto 3em auto;
+	margin: 2em auto 2em auto;
 	line-height: 1em;
 	font-weight: 300;
 }
