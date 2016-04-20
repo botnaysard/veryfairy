@@ -60,6 +60,9 @@ h3 {
 	size: 1.5em;
 	font-weight: 700;
 	margin: 0 0 15px 0;
+}
+
+.center-text {
 	text-align: center;
 }
 
@@ -170,6 +173,15 @@ h3 {
 #join-list:hover {
 	cursor: pointer;
 	color: #4d0033;
+}
+
+.join-link, .contact-link {
+	text-decoration: underline;
+}
+
+.join-link:hover, .contact-link:hover {
+	cursor: pointer;
+	color: #ff66b3;
 }
 
 .page-content{

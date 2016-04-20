@@ -24,7 +24,7 @@ $(document).ready(function() {
 
 
 
-	$("#join-list").click(function(event){
+	$("#join-list, .join-link").click(function(event){
 		$( "#dark-overlay" ).fadeIn( "slow", function() {
 			$("#mc_embed_signup").show();
         	$("#close-overlay" ).show();
@@ -68,7 +68,7 @@ $(document).ready(function() {
 
 	/* START CONTACT FORM POP-UP */
 
-		$("#initiate-contact").click(function(event){
+		$("#initiate-contact, .contact-link").click(function(event){
 		$( "#dark-overlay" ).fadeIn( "slow", function() {
 			$("#contact-us").show();
         	$("#close-contact" ).show();
