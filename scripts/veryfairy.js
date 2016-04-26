@@ -1,15 +1,30 @@
 $(document).ready(function() {
-
+		
 	/* START - SPARKLE ON HIGHLIGHT */
-	$(".sparkles-light").sparkle({
-		color: ["#ffebf4", "#ffcce3", "#d6e2f5", "#adc5eb", "#ffffff"],
-		count: 15,
-		overlap: 10,
-		speed: 1,
-		minSize: 5,
-		maxSize: 10,
-		direction: "both"
-	});
+
+		/* note: modified original code to procedurally generates # of sparkles based on area of element; works for most elements */
+
+		$(".sparkles").sparkle({
+			color: ["#ffebf4", "#ffcce3", "#d6e2f5", "#adc5eb", "#ffffff"],
+			overlap: 7,
+			speed: 1,
+			minSize: 5,
+			maxSize: 10,
+			direction: "both"
+		}); 
+
+		/* note: very large elements look too busy and require a reduced number of sparkles */
+	
+		$(".sparkles-large").sparkle({
+			color: ["#ffebf4", "#ffcce3", "#d6e2f5", "#adc5eb", "#ffffff"],
+			count: Math.round($(this).width() * $(this).height()) * 0.00003,
+			overlap: 7,
+			speed: 1,
+			minSize: 5,
+			maxSize: 10,
+			direction: "both"
+		}); 
+
 	/* END - SPARKLE ON HIGHLIGHT */
 
 	/* START - MAILING LIST POP-UP */
@@ -21,7 +36,6 @@ $(document).ready(function() {
 	    	register($form);
 	  	});
 	});
-
 
 
 	$("#join-list, .join-link").click(function(event){
