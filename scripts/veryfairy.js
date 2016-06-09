@@ -17,7 +17,19 @@ $(document).ready(function() {
 	
 		$(".sparkles-large").sparkle({
 			color: ["#ffebf4", "#ffcce3", "#d6e2f5", "#adc5eb", "#ffffff"],
-			count: Math.round($(this).width() * $(this).height()) * 0.00003,
+			count: Math.round($(this).width() * $(this).height()) * 0.00001,
+			overlap: 7,
+			speed: 1,
+			minSize: 5,
+			maxSize: 10,
+			direction: "both"
+		}); 
+
+		/* note: some elements display an anomalously large number of sparkles in Mozilla and IE only this is a temporary fix */
+
+			$(".sparkles-exception").sparkle({
+			color: ["#ffebf4", "#ffcce3", "#d6e2f5", "#adc5eb", "#ffffff"],
+			count: Math.round($(this).width() * $(this).height()) * 0.000002,
 			overlap: 7,
 			speed: 1,
 			minSize: 5,
@@ -82,7 +94,7 @@ $(document).ready(function() {
 
 	/* START CONTACT FORM POP-UP */
 
-		$("#initiate-contact, .contact-link").click(function(event){
+		$("#initiate-contact, .contact-link, .bw-page-link").click(function(event){
 		$( "#dark-overlay" ).fadeIn( "slow", function() {
 			$("#contact-us").show();
         	$("#close-contact" ).show();

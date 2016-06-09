@@ -184,6 +184,16 @@ h3 {
 	color: #ff66b3;
 }
 
+.bw-page-link {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.bw-page-link:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 .page-content{
 	width: 80%;
 	font-size: 2em;
@@ -557,6 +567,10 @@ h3 {
 .privacy-content h4 {
 	font-weight: 400;
 	margin-top: 2em;
+}
+
+.privacy-content a:visited {
+	color: black;
 }
 
 /* Slider */
