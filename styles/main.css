@@ -194,7 +194,7 @@ h3 {
 	cursor: pointer;
 }
 
-.page-content{
+.page-content {
 	width: 80%;
 	font-size: 2em;
 	margin: 2em auto 2em auto;
@@ -202,17 +202,13 @@ h3 {
 	font-weight: 300;
 }
 
-.page-content a {
+.shop-text a {
 	color: #5ea3c4;
 	cursor: pointer;
 }
 
-.page-content a:hover {
+.shop-text a:hover {
 	color: #ff66b3;
-}
-
-.page-content a:visited {
-	color: black;
 }
 
 .content-text-centered {
