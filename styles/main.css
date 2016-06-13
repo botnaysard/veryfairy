@@ -667,6 +667,16 @@ h3 {
 	margin-left: 34px;
 }
 
+.mobile-mailing {
+	display: none;
+	visibility: hidden;
+}
+
+.mobile-header {
+	display: none;
+	visibility: hidden;
+}
+
 /* MailChimp Form Embed Code - Slim - 12/15/2015 v10.7 */
 
 #mc_embed_signup {
@@ -814,4 +824,92 @@ h3 {
 	padding: .5em 0;
 }
 
+/* MEDIA QUERIES FOR RESPONSIVE */
 
+@media only screen and (max-width: 1250px) {
+	
+	.list-box, .flags-container, #join-list {
+		display: none;
+	}
+	
+	.mobile-mailing {
+		visibility: visible;
+		display: inline-block;
+	}
+
+	.mobile-mailing:hover {
+		cursor: pointer;
+		color: #ff99cc;
+		text-shadow: 1px 1px 0px #ff66b3;
+	}
+
+	.menu-items {
+		width: 100%;
+	}
+
+	.avfd-logo {
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 1189px) {
+
+	.footer-menu {
+		width: 65%;
+	}
+
+	.footer-social {
+		width
+	}
+}
+
+@media only screen and (max-width: 1065px) {
+
+	.bottom-stuff {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media only screen and (max-width: 920px) {
+	
+	.avfd-logo {
+		visibility: hidden;
+		display: none;
+	}
+
+	.mobile-header {
+		display: block;
+		visibility: visible;
+		position: relative;
+		font-family: hennypennyregular;
+		font-size: 72px;
+		width: 605px;
+		margin-left: auto;
+		margin-right: auto;
+		color: #5ea3c4;
+		text-shadow: 1px 1px 0px #ffcce6, 2px 2px 0px #ffcce6, 3px 3px 0px #ffcce6;
+	}
+
+	.mobile-header a {
+		text-decoration: none;
+	}
+
+	.mobile-header a:visited {
+		color: #5ea3c4;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+
+	.mobile-header {
+		font-size: 48px;
+		width: 400px;
+	}
+
+	.footer-social {
+		width: 50%;
+	}
+}

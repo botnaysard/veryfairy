@@ -50,7 +50,7 @@ $(document).ready(function() {
 	});
 
 
-	$("#join-list, .join-link").click(function(event){
+	$("#join-list, .join-link, .mobile-mailing").click(function(event){
 		$( "#dark-overlay" ).fadeIn( "slow", function() {
 			$("#mc_embed_signup").show();
         	$("#close-overlay" ).show();
