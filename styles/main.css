@@ -55,6 +55,10 @@ footer {
 	margin: 0 0 .5em 0;
 }
 
+h1 {
+	line-height: 100%
+}
+
 h3 {
 	font-family: Lato, arial, sans-serif;
 	size: 1.5em;
@@ -672,7 +676,7 @@ h3 {
 	visibility: hidden;
 }
 
-.mobile-header {
+.mobile-header, .legal-header-mobile {
 	display: none;
 	visibility: hidden;
 }
@@ -857,11 +861,7 @@ h3 {
 @media only screen and (max-width: 1189px) {
 
 	.footer-menu {
-		width: 65%;
-	}
-
-	.footer-social {
-		width
+		width: 70%;
 	}
 }
 
@@ -893,23 +893,51 @@ h3 {
 		text-shadow: 1px 1px 0px #ffcce6, 2px 2px 0px #ffcce6, 3px 3px 0px #ffcce6;
 	}
 
+	.legal-header-mobile {
+		display: block;
+		visibility: visible;
+		position: relative;
+		font-family: hennypennyregular;
+		font-size: 72px;
+		width: 605px;
+		margin-left: auto;
+		margin-right: auto;
+		color: black;
+	}
+
+	.legal-header-mobile a {
+		text-decoration: none;
+		color: black;
+	}
+
+	.shop-header {
+		font-size: 24px;
+		margin-top: 1em;
+	}
+
 	.mobile-header a {
 		text-decoration: none;
+		color: #5ea3c4;
 	}
 
 	.mobile-header a:visited {
 		color: #5ea3c4;
 	}
+
 }
 
 @media only screen and (max-width: 720px) {
 
-	.mobile-header {
+	.mobile-header, .legal-header-mobile {
 		font-size: 48px;
 		width: 400px;
 	}
 
 	.footer-social {
-		width: 50%;
+		width: 75%;
+	}
+
+	.footer-menu {
+		width: 100%;
 	}
 }
