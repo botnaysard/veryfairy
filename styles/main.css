@@ -403,6 +403,13 @@ h3 {
 	text-decoration: underline;
 }
 
+.funstuff-thumb {
+	display: inline-block;
+	width: 410px;
+	margin: 0px auto 50px auto;
+	border: 1px solid #aaa;
+}
+
 /* START POPUPS */
 
 
