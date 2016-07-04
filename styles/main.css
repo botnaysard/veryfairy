@@ -223,6 +223,16 @@ h3 {
 	text-align: left;
 }
 
+.content-text-centered a, .content-text-left a {
+	text-decoration: underline;
+	color: black;
+}
+
+.content-text-centered a:hover, .content-text-left a:hover {
+	cursor: pointer;
+	color: #ff66b3;
+}
+
 .small-text {
 	font-size: 0.8em;
 }

@@ -92,20 +92,4 @@ $(document).ready(function() {
 
 	/* END - MAILING LIST AJAX */
 
-	/* START CONTACT FORM POP-UP */
-
-		$("#initiate-contact, .contact-link, .bw-page-link").click(function(event){
-		$( "#dark-overlay" ).fadeIn( "slow", function() {
-			$("#contact-us").show();
-        	$("#close-contact" ).show();
-        	$("#close-contact" ).click(function(){
-        		$("#contact-us").hide();
-        		$("#dark-overlay" ).hide();
-        		$("#close-contact" ).hide();
-    		});
-  		});
-	});	
-
-	/* END CONTACT FORM POP-UP */
-
 });

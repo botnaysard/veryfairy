@@ -1,9 +1,3 @@
-
-<?php
-mail('scotthayward@gmail.com','Test mail','The mail function is working!');
-echo 'Mail sent!';
-?>
-
 <?php
 	$name = $_POST['name'];
 	$email = $_POST['email'];
