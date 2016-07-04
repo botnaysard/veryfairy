@@ -398,7 +398,7 @@ h3 {
 
 .very-bottom p {
 	font-family: Lato, arial, sans-serif;
-	color: white;
+	color: #00284d;
 	text-align: center;
 	padding-top: 45px;
 	font-weight: 300;
@@ -406,7 +406,7 @@ h3 {
 
 .very-bottom a {
 	text-decoration: none;
-	color: white;
+	color: #00284d;
 }
 
 .very-bottom a:hover {
