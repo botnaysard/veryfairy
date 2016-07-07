@@ -26,15 +26,15 @@ body {
 header {
 	background-color: #ff66b3;
 	color: white;
-	height: 3em;
+	height: 60px;
 	font-weight: 300;
 	text-align: center;
 	position: relative;
 }
 
 header div {
-	height: 3em;
-	line-height: 3em;
+	height: 60px;
+	line-height: 55px;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -128,10 +128,14 @@ h3 {
 }
 
 .pre-order-top {
+	display: inline-block;
+	height: 59px;
 	width: 550px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 0px auto 0px auto;
+	padding: 0px;
 	color: #ffcce6;
+	font-weight: 400;
+	font-size: 20px;
 }
 
 .pre-order-top a {

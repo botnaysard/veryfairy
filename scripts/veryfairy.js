@@ -59,6 +59,13 @@ $(document).ready(function() {
         		$("#dark-overlay" ).hide();
         		$("#close-overlay" ).hide();
     		});
+    		$('body').on('keydown', function(e){
+ 	  	  		if(e.keyCode == 27) {
+        			$("#mc_embed_signup").hide();
+        			$("#dark-overlay").hide();
+        			$("#close-overlay").hide();
+ 	  			};
+ 	  		});
   		});
 	});
 
