@@ -77,7 +77,7 @@
 		<div class="footer-menu">
 			<ul>
 				<li class="sparkles"><a href="questions.html">FAQ</a></li>
-				<li class="sparkles"><a href="contact.html">Contact</a></li>
+				<li id="initiate-contact" class="sparkles">Contact</li>
 				<li class="sparkles"><a href="press.html">Press</a></li>
 			</ul>
 		</div>
@@ -123,5 +123,30 @@
 
   <!-- END MailChimp Sign-up-->
 
+  <!-- START Contact Form -->
+
+	<div id="contact-us" class="toggle">
+		<div id="close-contact" class="toggle">X</div>
+		<h3 id="contact-header">Contact Us</h3>
+		<div id="formBlock">
+        <form id="someForm">
+            <label for="name">Name:</label> 
+            <input type="text" id="name"><br/>
+            <label for="email">Email:</label> 
+            <input type="email" id="email"><br/>
+            <label for="comments">Comments:</label>
+            <textarea id="comments"></textarea>
+        <input type="submit">
+        </form>
+    </div>
+    <div id="thankyouBlock" style="display:none">
+        <p>
+            SUCCESS! We'll get in touch with you soon.
+        </p>
+    </div>
+  	</div>
+
+	<!-- END Contact Form -->
+	
 </body>
 </html>

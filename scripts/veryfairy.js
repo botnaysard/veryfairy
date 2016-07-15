@@ -99,4 +99,71 @@ $(document).ready(function() {
 
 	/* END - MAILING LIST AJAX */
 
+	
+	/* START CONTACT FORM POP-UP */
+
+		$("#initiate-contact, .contact-link, .bw-page-link").click(function(event){
+		$( "#dark-overlay" ).fadeIn( "slow", function() {
+			$("#contact-us").show();
+        	$("#close-contact" ).show();
+        	$("#close-contact" ).click(function(){
+        		$("#contact-us").hide();
+        		$("#dark-overlay" ).hide();
+        		$("#close-contact" ).hide();
+    		});
+    		$('body').on('keydown', function(e){
+ 	  	  		if(e.keyCode == 27) {
+        			$("#contact-us").hide();
+        			$("#dark-overlay").hide();
+        			$("#close-contact").hide();
+ 	  			};
+ 	  		});    		
+  		});
+	});	
+
+	/* END CONTACT FORM POP-UP */
+
+	/* START CONTACT FORM AJAX */
+
+	$(document).ready(function() {
+
+    $('#someForm').on('submit', function(e) {
+        e.preventDefault();
+        
+        //get the name field value
+        var name = $('#name').val();
+        //get the name field value
+        var email = $('#email').val();
+        //get the comments
+        var comments = $('#comments').val();
+                    
+        //pretend we don't need validation
+        
+        //send to formspree
+        $.ajax({
+            url:'https://formspree.io/contact@averyfairydoor.com',
+            method:'POST',
+            data:{
+                name:name,
+                _replyto:email,
+                 email:email,
+                comments:comments,
+                _subject:'Correstpondence submitted from www.averyfairydoor.com',
+            },
+            dataType:"json",
+            success:function() {
+                console.log('success'); 
+                $('#formBlock').hide();
+                $('#contact-header').hide();
+                $('#thankyouBlock').show();
+            }   
+
+        });     
+        
+    });
+
+}); 
+
+	/* END CONTACT FORM AJAX */
+
 });

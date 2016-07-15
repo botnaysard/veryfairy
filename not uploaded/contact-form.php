@@ -1,21 +1,34 @@
 <?php
-	$name = $_POST['name'];
-	$email = $_POST['email'];
+require 'phpmailer/PHPMailerAutoload.php';
+if ($_POST) {
+	$name    = $_POST['name'];
+	$email   = $_POST['email'];
 	$message = $_POST['message'];
-	$from = 'From: ContactVFD';
-	$to = 'scotthayward@gmail.com';
-	$subject = 'Contact form submission'
-	$body = "From: $name\n E-mail: $email\n Message:\n $message";
-?>
 
-<?php
-if ($_POST['submit'] && $human == '23') {
-	if (mail ($to, $subject, $body, $from)) {
-		echo '<p>Your message has been sent!</p>';
-	} else {
-		echo '<p>Oops!  Something went wrong, please try again.</p>';
+	/* Start - GoDaddy Settings - DO NOT EDIT */
+	
+	$mail = new PHPMailer();
+	$mail->isSMTP();
+	$mail->Host        = "relay-hosting.secureserver.net";
+	$mail->SMTPAuth    = false;
+	$mail->setFrom($email, $name);
+	
+	/* End - GoDaddy Settings */
+
+	/* Destination address for form content */
+	
+	$mail->addAddress('hifive@scotthayward.io');
+	$mail->Subject = 'contact form submission - scotthayward.io';
+	
+	/* This is forwarded through a GoDaddy forwarding account */
+
+	$mail->Body = $message;
+	if (!$mail->send()) {
+		echo "Mailer Error: " . $mail->ErrorInfo;
+	} else {		
+		header("http://www.averyfairydoor.com");
 	}
-} else if ($_POST['submit'] && $human !='23') {
-	echo '<p>Anti-span answer incorrect, please try again.</p>'	
 }
-?>
+
+?> 
+
