@@ -141,7 +141,7 @@ $(document).ready(function() {
         
         //send to formspree
         $.ajax({
-            url:'https://formspree.io/contact@averyfairydoor.com',
+            url:'https://formspree.io/carlie@averyfairydoor.com',
             method:'POST',
             data:{
                 name:name,
