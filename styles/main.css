@@ -892,6 +892,15 @@ h3 {
 	padding-top: 230px;
 }
 
+/* Shopify */
+
+.shopify-button {
+	width: 105px;
+	margin: 25px auto 0px auto;
+	text-align: center;
+	padding-top: 30px;
+}
+
 
 /* E-mail List Sign-up */
 
