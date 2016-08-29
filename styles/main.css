@@ -305,8 +305,8 @@ h3 {
 }
 
 .footer-social li {
-	margin-left: 3em;
-	margin-right: 3em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
 }
 
 .footer-menu a, .footer-social a {
@@ -1019,6 +1019,10 @@ h3 {
 
 	.contact-table {
 		margin-bottom: 50px;
+	}
+
+	.footer-social {
+		width: 75%;
 	}
 }
 
