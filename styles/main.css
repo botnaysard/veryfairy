@@ -608,7 +608,7 @@ h3 {
 }
 
 .shop-social {
-	width: 120px;
+	width: 420px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10em;
@@ -617,10 +617,13 @@ h3 {
 .shop-social ul { 
 	padding: 0px;
 	list-style-type: none;
+	width: 100%;
+	text-align: center;
 }
 
 .shop-social li {
-	display: inline;
+	display: inline-block;
+	margin: 0px 15px;
 }
 
 .shop-social a {
@@ -631,10 +634,6 @@ h3 {
 .shop-social a:hover {
 	color: #666;
 	cursor: pointer;
-}
-
-.shop-twitter {
-	margin-left: 34px;
 }
 
 .mobile-mailing {
