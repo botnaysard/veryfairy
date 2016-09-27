@@ -1038,9 +1038,8 @@ h3 {
 		position: relative;
 		font-family: hennypennyregular;
 		font-size: 72px;
-		width: 605px;
-		margin-left: auto;
-		margin-right: auto;
+		width: 100%;
+		text-align: center;
 		color: #5ea3c4;
 		text-shadow: 1px 1px 0px #ffcce6, 2px 2px 0px #ffcce6, 3px 3px 0px #ffcce6;
 	}
@@ -1051,9 +1050,8 @@ h3 {
 		position: relative;
 		font-family: hennypennyregular;
 		font-size: 72px;
-		width: 605px;
-		margin-left: auto;
-		margin-right: auto;
+		width: 100%;
+		text-align: center;
 		color: black;
 	}
 
@@ -1082,7 +1080,6 @@ h3 {
 
 	.mobile-header, .legal-header-mobile {
 		font-size: 48px;
-		width: 400px;
 	}
 
 	.footer-social {
