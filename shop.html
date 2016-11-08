@@ -72,13 +72,297 @@
 			<li><strong>one (1) </strong> x painted resin door (7″ x 4.5″)</li>
 		</ul>
 		<div class="shopify-button">
-			<div data-embed_type="product" data-shop="a-very-fairy-door.myshopify.com" data-product_name="A Very Fairy Door" data-product_handle="a-very-fairy-door" data-has_image="false" data-display_size="compact" data-redirect_to="checkout" data-buy_button_text="Buy it Now!" data-buy_button_out_of_stock_text="Out of Stock" data-buy_button_product_unavailable_text="Unavailable" data-button_background_color="ff66b3" data-button_text_color="ffffff" data-product_modal="false" data-product_title_color="000000" data-next_page_button_text="Next page"></div>
+			<div id='product-component-9419c3b0e3f'></div>
 				<script type="text/javascript">
-					document.getElementById('ShopifyEmbedScript') || document.write('<script type="text/javascript" src="https://widgets.shopifyapps.com/assets/widgets/embed/client.js" id="ShopifyEmbedScript"><\/script>');
+				//<![CDATA[
+
+				/* <BuyButton> */
+				(function () {
+				  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+				  if (window.ShopifyBuy) {
+				    if (window.ShopifyBuy.UI) {
+				      ShopifyBuyInit();
+				    } else {
+				      loadScript();
+				    }
+				  } else {
+				    loadScript();
+				  }
+
+				  function loadScript() {
+				    var script = document.createElement('script');
+				    script.async = true;
+				    script.src = scriptURL;
+				    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+				    script.onload = ShopifyBuyInit;
+				  }
+
+				  function ShopifyBuyInit() {
+				    var client = ShopifyBuy.buildClient({
+				      domain: 'a-very-fairy-door.myshopify.com',
+				      apiKey: 'aaa5b9bf86df3ff7d0115403c38d1d38',
+				      appId: '6',
+				    });
+
+				    ShopifyBuy.UI.onReady(client).then(function (ui) {
+				      ui.createComponent('product', {
+				        id: [7651367942],
+				        node: document.getElementById('product-component-9419c3b0e3f'),
+				        moneyFormat: '${{amount}}',
+				        options: {
+				  "product": {
+				    "buttonDestination": "cart",
+				    "layout": "vertical",
+				    "variantId": "all",
+				    "width": "240px",
+				    "contents": {
+				      "img": false,
+				      "title": false,
+				      "variantTitle": false,
+				      "options": true,
+				      "price": false,
+				      "description": false,
+				      "buttonWithQuantity": true,
+				      "button": false,
+				      "quantity": false
+				    },
+				    "text": {
+				      "button": "ADD TO CART"
+				    },
+				    "styles": {
+				      "product": {
+				        "@media (min-width: 601px)": {
+				          "max-width": "calc(25% - 20px)",
+				          "margin-left": "20px",
+				          "margin-bottom": "50px"
+				        }
+				      },
+				      "button": {
+				        "background-color": "#ff66b3",
+				        "color": "#ffffff",
+				        "font-family": "Helvetica Neue, sans-serif",
+				        "font-size": "16px",
+				        "padding-top": "16px",
+				        "padding-bottom": "16px",
+				        "padding-left": "26px",
+				        "padding-right": "26px",
+				        "border": "none",
+				        ":hover": {
+				          "background-color": "#e65ca1",
+				          "color": "#ffffff"
+				        },
+				        "border-radius": "3px",
+				        ":focus": {
+				          "background-color": "#e65ca1"
+				        }
+				      },
+				      "variantTitle": {
+				        "font-family": "Helvetica Neue, sans-serif",
+				        "font-size": "14px",
+				        "color": "#4c4c4c"
+				      },
+				      "title": {
+				        "font-family": "Helvetica Neue, sans-serif",
+				        "font-weight": "bold",
+				        "font-size": "18px",
+				        "color": "#4c4c4c"
+				      },
+				      "description": {
+				        "color": "#4c4c4c",
+				        "font-size": "14px",
+				        "font-family": "Helvetica Neue, sans-serif"
+				      },
+				      "price": {
+				        "font-family": "Helvetica Neue, sans-serif",
+				        "font-size": "14px",
+				        "color": "#4c4c4c"
+				      },
+				      "quantityInput": {
+				        "font-size": "16px",
+				        "padding-top": "16px",
+				        "padding-bottom": "16px",
+				        "color": "#4c4c4c"
+				      }
+				    }
+				  },
+				  "cart": {
+				    "contents": {
+				      "title": true,
+				      "lineItems": true,
+				      "footer": true,
+				      "button": true
+				    },
+				    "text": {
+				      "title": "Cart",
+				      "total": "Total",
+				      "notice": "Shipping and discount codes are added at checkout.",
+				      "button": "CHECKOUT",
+				      "empty": "Your cart is empty."
+				    },
+				    "styles": {
+				      "button": {
+				        "background-color": "#ff66b3",
+				        "color": "#ffffff",
+				        "font-family": "Helvetica Neue, sans-serif",
+				        "font-size": "16px",
+				        "padding-top": "16px",
+				        "padding-bottom": "16px",
+				        "padding-left": "26px",
+				        "padding-right": "26px",
+				        "border": "none",
+				        ":hover": {
+				          "background-color": "#e65ca1",
+				          "color": "#ffffff"
+				        },
+				        "border-radius": "3px",
+				        ":focus": {
+				          "background-color": "#e65ca1"
+				        }
+				      },
+				      "cart": {
+				        "background-color": "#ffffff"
+				      },
+				      "footer": {
+				        "background-color": "#ffffff"
+				      },
+				      "title": {
+				        "color": "#4c4c4c"
+				      },
+				      "close": {
+				        ":hover": {
+				        }
+				      }
+				    }
+				  },
+				  "modalProduct": {
+				    "contents": {
+				      "img": true,
+				      "title": true,
+				      "variantTitle": false,
+				      "options": true,
+				      "price": true,
+				      "description": true,
+				      "buttonWithQuantity": false,
+				      "button": true,
+				      "quantity": false
+				    },
+				    "text": {
+				      "button": "ADD TO CART"
+				    },
+				    "styles": {
+				      "product": {
+				        "@media (min-width: 601px)": {
+				          "max-width": "100%",
+				          "margin-left": "0px",
+				          "margin-bottom": "0px"
+				        }
+				      },
+				      "button": {
+				        "background-color": "#ff66b3",
+				        "color": "#ffffff",
+				        "font-family": "Helvetica Neue, sans-serif",
+				        "font-size": "16px",
+				        "padding-top": "16px",
+				        "padding-bottom": "16px",
+				        "padding-left": "26px",
+				        "padding-right": "26px",
+				        "border": "none",
+				        ":hover": {
+				          "background-color": "#e65ca1",
+				          "color": "#ffffff"
+				        },
+				        "border-radius": "3px",
+				        ":focus": {
+				          "background-color": "#e65ca1"
+				        }
+				      },
+				      "variantTitle": {
+				        "font-family": "Helvetica Neue, sans-serif",
+				        "font-size": "14px",
+				        "color": "#4c4c4c"
+				      },
+				      "title": {
+				        "font-family": "Helvetica Neue, sans-serif",
+				        "font-weight": "bold",
+				        "font-size": "26px",
+				        "color": "#4c4c4c"
+				      },
+				      "description": {
+				        "color": "#4c4c4c",
+				        "font-size": "14px",
+				        "font-family": "Helvetica Neue, sans-serif"
+				      },
+				      "price": {
+				        "font-family": "Helvetica Neue, sans-serif",
+				        "font-size": "18px",
+				        "color": "#4c4c4c"
+				      },
+				      "quantityInput": {
+				        "font-size": "16px",
+				        "padding-top": "16px",
+				        "padding-bottom": "16px",
+				        "color": "#4c4c4c"
+				      },
+				      "compareAt": {
+				        "font-size": "15px"
+				      }
+				    }
+				  },
+				  "productSet": {
+				    "styles": {
+				      "products": {
+				        "@media (min-width: 601px)": {
+				          "margin-left": "-20px"
+				        }
+				      }
+				    }
+				  },
+				  "toggle": {
+				    "styles": {
+				      "toggle": {
+				        "font-family": "Helvetica Neue, sans-serif",
+				        "background-color": "#ff66b3",
+				        ":hover": {
+				          "background-color": "#e65ca1"
+				        },
+				        ":focus": {
+				          "background-color": "#e65ca1"
+				        }
+				      },
+				      "count": {
+				        "font-size": "16px"
+				      }
+				    }
+				  },
+				  "modal": {
+				    "styles": {
+				      "modal": {
+				        "background-color": "#ffffff"
+				      }
+				    }
+				  },
+				  "option": {
+				    "styles": {
+				      "label": {
+				        "font-family": "Helvetica Neue, sans-serif",
+				        "font-weight": "normal",
+				        "color": "#4c4c4c"
+				      },
+				      "select": {
+				        "font-family": "Helvetica Neue, sans-serif",
+				        "font-weight": "normal",
+				        "color": "#4c4c4c"
+				      }
+				    }
+				  }
+				}
+				      });
+				    });
+				  }
+				})();
+				/* </BuyButton> */
+				//]]>
 				</script>
-				<noscript>
-					<a href="https://a-very-fairy-door.myshopify.com/cart/24596279814:1" target="_blank">Buy A Very Fairy Door</a>
-				</noscript>
 		</div>
     </section>
     <section>
