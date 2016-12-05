@@ -66,6 +66,10 @@ h3 {
 	margin: 0 0 15px 0;
 }
 
+a {
+	transition: all 0.2s ease-in-out 0.2s;
+}
+
 .center-text {
 	text-align: center;
 }
@@ -130,22 +134,23 @@ h3 {
 .pre-order-top {
 	display: inline-block;
 	height: 59px;
-	width: 550px;
 	margin-left: 0px auto 0px auto;
 	padding: 0px;
-	color: #ffcce6;
 	font-weight: 400;
 	font-size: 20px;
+	word-spacing: 0.25em
 }
 
 .pre-order-top a {
 	cursor: pointer;
 	text-decoration: none;
-	color: #ffcce6;
+	color: white;
+
 }
 
 .pre-order-top a:hover {
 	color: white;
+	text-shadow: 1px 1px 10px white;
 }
 
 .flags-container {
@@ -204,9 +209,9 @@ h3 {
 
 .page-content {
 	width: 80%;
-	font-size: 2em;
+	font-size: 1.75em;
 	margin: 2em auto 2em auto;
-	line-height: 2em;
+	line-height: 1.5em;
 	font-weight: 300;
 }
 
@@ -311,12 +316,13 @@ h3 {
 
 .footer-menu a, .footer-social a {
 	text-decoration: none;
-	color: #ffcce6;
+	color: white;
 }
 
 .footer-menu a:hover, .footer-social a:hover {
 	color: white;
 	cursor: pointer;
+	text-shadow: 1px 1px 10px white;
 }
 
 .how-to-table {
@@ -397,10 +403,11 @@ h3 {
 
 .very-bottom {
 	height: 150px;
-	background-image:url('../images/carpet.jpg');
+	/* background-image:url('../images/carpet.jpg');
     background-repeat: no-repeat;
   	background-size: cover;
-  	background-position: 0% 0%;
+  	background-position: 0% 0%; */
+  	background-color: #5ea3c4;
   	width: 100%;
 }
 
@@ -873,9 +880,14 @@ h3 {
 }
 
 
+#initiate-contact {
+	color: white;
+}
+
 #initiate-contact:hover {
 	color: white;
 	cursor: pointer;
+	text-shadow: 1px 1px 10px white;
 }
 
 #comments {
