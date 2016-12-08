@@ -333,13 +333,19 @@ a {
 	margin-bottom: 20px;	
 }
 
-.how-to-fairy {
-	display: inline-block;
-	width: 400px;
+.contact-box {
+	width: 950px;
+	font-size: 1.75em;
+	margin: 2em auto;
+	line-height: 1.5em;
+	font-weight: 300;
 }
 
-.contact-table {
-	margin-bottom: 100px;
+.contact-col {
+	display: inline-block;
+	width:440px;
+	height: 431px;
+	padding: 0px 15px;
 }
 
 .bubble {
@@ -351,6 +357,7 @@ a {
     position: relative;
     vertical-align: top;
     width: 400px;
+    
 }
 
 .bubble::before {
@@ -368,19 +375,10 @@ a {
     width:  20px;
 }
 
-.faceright {
-    float: right;   
-    margin: 50px 45px 5px 0px;        
-}
-
-.faceright::before {
-    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
-    left: -9px;           
-}
 
 .faceleft {
     float: left;    
-    margin: 50px 60px 5px 45px;         
+    margin: 50px 0px;        
 }
 
 .faceleft::before {
@@ -992,31 +990,6 @@ a {
 	    visibility: hidden;  
 	}
 
-	.how-to-row {
-		display: block;
-		width: 100%
-		margin: 0px auto;
-
-	}
-
-	.how-to-table {
-		width: 500px;
-		margin: 50px auto;
-		padding: 0px;
-	}
-
-	.how-to-fairy {
-		display: block;
-		margin: 25px auto 35px auto;
-		padding: 0px;
-		min-width: 494px;
-	}
-
-	.how-to-fairy img {
-		display: block;
-		margin: 0px auto;
-	}
-
 	.bubble {
 		margin: 15px 0px 25px 0px;
 		width: auto;
@@ -1033,6 +1006,16 @@ a {
 
 	.footer-social {
 		width: 75%;
+	}
+
+	.contact-col {
+		display: block;
+		height: auto;
+	}
+
+	
+	.contact-box {
+		width: 445px;
 	}
 }
 
@@ -1084,7 +1067,6 @@ a {
 	.mobile-header a:visited {
 		color: #5ea3c4;
 	}
-
 }
 
 @media only screen and (max-width: 720px) {
