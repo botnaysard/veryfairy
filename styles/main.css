@@ -926,14 +926,30 @@ a {
 }
 
 .slider {
-	width: 1067px;
-	height: auto;
-	margin: 0px auto;
-	position: relative;
-	text-align: center;
+		width: 1067px;
 }
 
-.slider > div {
+.testimonials {
+	padding: 1.5em 0 2.5em 0;
+	font-family: 'Dancing Script', cursive;
+	font-size: 2em;
+	line-height: 1em;
+	vertical-align: middle;
+	color: #5ea3c4;
+}
+
+.testimonials > div {
+	width: 100%;
+	text-align: center;	
+}
+
+.slider, .testimonials {	
+	margin: 0px auto;
+	position: relative;	
+	display: block;
+}
+
+.slider > div, .testimonials > div {
 	position: absolute;
 }
 

@@ -180,4 +180,18 @@ $(document).ready(function() {
 
 	/* END IMAGE SLIDER FOR HEADER */
 
+	/* START TESTIMONIAL SLIDER */
+
+	$(".testimonials > div:gt(0)").hide();
+		setInterval(function() { 
+  			$('.testimonials > div:first')
+    		.fadeOut(1000)
+    		.next()
+    		.fadeIn(1000)
+    		.end()
+    		.appendTo('.testimonials');
+		},  15000);
+
+	/* END TESTIMONIAL SLIDER */	
+
 });
