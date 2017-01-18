@@ -176,7 +176,7 @@ $(document).ready(function() {
     		.fadeIn(1000)
     		.end()
     		.appendTo('.slider');
-		},  5000);
+		},  3000);
 
 	/* END IMAGE SLIDER FOR HEADER */
 
@@ -190,7 +190,7 @@ $(document).ready(function() {
     		.fadeIn(1000)
     		.end()
     		.appendTo('.testimonials');
-		},  15000);
+		},  6000);
 
 	/* END TESTIMONIAL SLIDER */	
 
