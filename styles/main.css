@@ -70,6 +70,10 @@ a {
 	transition: all 0.2s ease-in-out 0.2s;
 }
 
+span.nowrap {
+	display: inline-block;
+}
+
 .boldinate {
 	font-weight: 400;
 }
