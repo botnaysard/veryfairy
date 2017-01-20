@@ -26,24 +26,22 @@ body {
 header {
 	background-color: #ff66b3;
 	color: white;
-	height: 60px;
 	font-weight: 300;
 	text-align: center;
 	position: relative;
+	height: 16em;
 }
 
 header div {
-	height: 60px;
-	line-height: 55px;
+
 	display: inline-block;
 	vertical-align: middle;
 }
 
 footer {
 	text-align: center;
-	padding-top: 7em;
-	background-color: #ff66b3;
-	color: #ffcce6;
+	padding-top: 2em;
+	background-color: #5ea3c4;
 	font-weight: 400;
 }
 
@@ -66,10 +64,6 @@ h3 {
 	margin: 0 0 15px 0;
 }
 
-a {
-	transition: all 0.2s ease-in-out 0.2s;
-}
-
 span.nowrap {
 	display: inline-block;
 }
@@ -89,14 +83,15 @@ span.nowrap {
 	background-color: white;
 }
 
-.footer-menu li, .footer-social li {
+.footer-social li {
 	display: inline-block;
 }
 
 .avfd-logo {
 	width: 100%;
+	height: auto;
 	padding: 0px;
-	margin: 0px;
+	margin: 1em 0 0 0;
 	text-align: center;
 }
 
@@ -108,31 +103,30 @@ span.nowrap {
 .menu-items {
 	font-size: 2.1em;
 	font-weight: 400;
-	color: #5ea3c4;
-	margin: 0.5em auto 1em auto;
+	margin: 0px;
 	padding: 0px;
 	text-align: center;
 	font-weight: 700;
 	width: 800px;
-	text-shadow: 1px 1px 0px #377795;
 }
 
 .menu-items li {
 	display: inline-block;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
-	color: #5ea3c4;	
+	color: white
 }
 
 .menu-items a {
+	cursor: pointer;
 	text-decoration: none;
-	color: #5ea3c4;
+	color: white;
 }
 
 .menu-items a:hover {
 	cursor: pointer;
-	color: #ff99cc;
-	text-shadow: 1px 1px 0px #ff66b3;
+	color: white;
+	text-shadow: 1px 1px 10px white;
 }
 
 .current-page {
@@ -150,21 +144,9 @@ span.nowrap {
 	text-transform: uppercase;
 }
 
-.pre-order-top a {
-	cursor: pointer;
-	text-decoration: none;
-	color: white;
-
-}
-
-.pre-order-top a:hover {
-	color: white;
-	text-shadow: 1px 1px 10px white;
-}
-
 .flags-container {
 	position: absolute;
-	top: 5px;
+	top: 40px;
 	left: 0px;
 }
 
@@ -219,7 +201,7 @@ span.nowrap {
 .page-content {
 	width: 80%;
 	font-size: 1.75em;
-	margin: 2em auto 2em auto;
+	margin: 4em auto 2em auto;
 	line-height: 1.5em;
 	font-weight: 300;
 }
@@ -264,15 +246,6 @@ span.nowrap {
 	margin: 0 auto 0 auto;
 }
 
-.poem {
-	font-family: 'Dancing Script', cursive;
-	font-size: 1.7em;
-	line-height: 1.5em;
-	margin-bottom: 3em;
-	color: #377795;
-	text-shadow: 2px 2px 4px #ffcce6;
-}
-
 .bottom-stuff {
 	height: 160px;
 	vertical-align: top;
@@ -285,7 +258,7 @@ span.nowrap {
 }
 
 .fence-graphic img {
-	margin: 0px 0px -70px -400px;
+	margin: 0px 0px -75px -400px;
 }
 
 .teddy-bear {
@@ -301,30 +274,18 @@ span.nowrap {
 	margin-top: 30px;
 }
 
-.footer-menu, .footer-social {
+.footer-social {
 	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.footer-menu {
-	display: block;
-	margin-top: 3em;
 }
 
 .footer-social {
 	margin-top: 4em;
 }
 
-.footer-menu ul, .footer-social ul { 
+.footer-social ul { 
 	padding: 0px;
-}
-
-.footer-menu li {
-	margin-left: 1.5em;
-	margin-right: 1.5em;
-	font-size: 1.5em;
-	font-weight: 400;
 }
 
 .footer-social li {
@@ -332,12 +293,12 @@ span.nowrap {
 	margin-right: 1.5em;
 }
 
-.footer-menu a, .footer-social a {
+.footer-social a {
 	text-decoration: none;
 	color: white;
 }
 
-.footer-menu a:hover, .footer-social a:hover {
+.footer-social a:hover {
 	color: white;
 	cursor: pointer;
 	text-shadow: 1px 1px 10px white;
@@ -405,13 +366,12 @@ span.nowrap {
 
 .very-bottom {
 	height: 150px;
-  	background-color: #5ea3c4;
   	width: 100%;
 }
 
 .very-bottom p {
 	font-family: Lato, arial, sans-serif;
-	color: #00284d;
+	color: white;
 	text-align: center;
 	padding-top: 45px;
 	font-weight: 300;
@@ -419,7 +379,7 @@ span.nowrap {
 
 .very-bottom a {
 	text-decoration: none;
-	color: #00284d;
+	color: white;
 }
 
 .very-bottom a:hover {
@@ -559,7 +519,6 @@ span.nowrap {
 
 .slider-container {
 	width: 1000px;
-	height: 620px;
 	margin: 0 auto 6em auto;
 }
 
@@ -941,7 +900,7 @@ span.nowrap {
 /* Image slider and testimonials */
 
 .slider {
-		width: 1067px;
+		width: 1000px;
 }
 
 .slider > div, .testimonials > div {
@@ -951,7 +910,6 @@ span.nowrap {
 .test-section {
 	border: 1px solid transparent;
 	background-color: #ffb3da;
-	padding-bottom: 5em;
 }
 
 .test-extend {
@@ -964,7 +922,7 @@ span.nowrap {
 	color: white;
 	text-align: center;
 	text-shadow: 1px 1px 0px #ff66b3, 2px 2px 0px #ff66b3, 3px 3px 0px #ff66b3;
-	margin: 1em 0 0 0;
+	margin: 0.5em 0;
 }
 
 .testimonials {
@@ -972,7 +930,6 @@ span.nowrap {
 	line-height: 1.3em;
 	color: white;
 	height: 4em;
-	margin-top: 30px !important;
 }
 
 .testimonials > div {
@@ -1021,14 +978,6 @@ span.nowrap {
 }
 
 @media only screen and (max-width: 1189px) {
-
-	.footer-menu {
-		width: 70%;
-	}
-
-	.menu-items {
-		max-width: 600px;
-	}
 
 	.testimonials > div {
 		width: 1000px;
@@ -1081,10 +1030,6 @@ span.nowrap {
 		width: 900px;
 		margin-left: -450px;
 		left: 50%;
-	}
-
-	.poem {
-		font-size: 1.4em;
 	}
 }
 
@@ -1152,10 +1097,6 @@ span.nowrap {
 
 	.footer-social {
 		width: 75%;
-	}
-
-	.footer-menu {
-		width: 100%;
 	}
 
 	.testimonials > div {
