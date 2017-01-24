@@ -48,8 +48,8 @@ footer {
 .page-content h1 {
 	font-family: hennypennyregular, times, serif;
 	font-size: 2em;
-	color: #ff99cc;
-	text-shadow: 1px 1px 0px #ff66b3, 2px 2px 0px #ff66b3, 3px 3px 0px #ff66b3, 5px 5px 4px #a6a6a6;
+	color: #ff66b3;
+	text-shadow: 1px 1px 0px #ff99cc, 2px 2px 0px #ff99cc, 3px 3px 0px #ff99cc, 5px 5px 4px #a6a6a6;
 	margin: 0 0 .5em 0;
 }
 
@@ -79,7 +79,7 @@ span.nowrap {
 .top-navigation {
 	vertical-align: bottom;
 	width: 80%;
-	margin: 1.5em auto 1.5em auto;
+	margin: 0px auto;
 	background-color: white;
 }
 
@@ -158,12 +158,13 @@ span.nowrap {
 .list-box {
 	position: absolute;
 	right: -10px;
-	top: 10px;
+	top: 60px;
+	z-index: 900;
 }
 
 #join-list {
 	position: absolute;
-	top: 85px;
+	top: 145px;
 	right: 50px;
 	width: 150px;
 	height: auto;
@@ -171,6 +172,7 @@ span.nowrap {
 	font-family: hennypennyregular;
 	font-size: 2em;
 	color: black;
+	z-index: 901;
 }
 
 #join-list:hover {
@@ -409,7 +411,7 @@ span.nowrap {
 	bottom: 0;
 	left: 0;
 	background: black;
-	opacity: .7;
+	opacity: .65;
 	z-index: 1000;
 }
 
@@ -625,6 +627,8 @@ span.nowrap {
 	z-index: 1002;
 	padding-top: 50px;
 	font-size: 0.9em;
+	border: 1px solid black;
+	border-radius: 15px
 }
 
 #mc_embed_signup form { 
@@ -642,7 +646,9 @@ span.nowrap {
 
 #mc_embed_signup input {
 	margin: 20px auto 20px auto;
-	border: 1px solid black;	
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;	
 	-webkit-appearance:none;
 }
 
@@ -669,6 +675,7 @@ span.nowrap {
 	text-align: center; 
 	margin: 30px auto 30px auto;
 	border: none;
+	border-radius: 7px;
 	transition: all 0.23s ease-in-out 0s;
 }
 
@@ -760,6 +767,7 @@ span.nowrap {
 
 #contact-us {
 	border: 1px solid black;
+	border-radius: 15px;
 	width: 650px;
 	height: 600px;
 	margin: 0px auto;
@@ -795,6 +803,8 @@ span.nowrap {
 	display: block;
 	width: 85%;
 	margin: 0px auto;
+	border-radius: 5px;
+
 }
 
 #contact-us div {
@@ -828,6 +838,7 @@ span.nowrap {
 	height: 48px;
 	font-weight: 400;
 	transition: all 0.23s ease-in-out 0s;
+	border-radius: 7px;
 }
 
 #contact-us input[type="submit"]:hover {
@@ -918,7 +929,7 @@ span.nowrap {
 
 @keyframes slideshow {
   0%    { left: 0; }
-  100%  { left: -436.05%; }
+  100%  { left: -319%; }
 }
 
 /* Image slider and testimonials */
