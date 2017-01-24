@@ -151,8 +151,7 @@ span.nowrap {
 }
 
 .masthead {
-	height: 600px;
-	width: 1067px;
+	width: 100%;
 	margin: 0px auto 0px auto;
 }
 
@@ -895,6 +894,31 @@ span.nowrap {
 
 .alert {
 	color: red;
+}
+
+
+/* Infinite carousel */
+
+.slideshow {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+  max-width: 2000px;
+}
+
+.images {
+  background: url(../images/slider/fairy-image-strip.jpg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 8271px;
+  animation: slideshow 90s linear infinite;
+}
+
+@keyframes slideshow {
+  0%    { left: 0; }
+  100%  { left: -436.05%; }
 }
 
 /* Image slider and testimonials */
