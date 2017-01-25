@@ -24,12 +24,13 @@ body {
 }
 
 header {
-	background-color: #ff66b3;
+	background-image: linear-gradient(#cc0066, #ff66b3);
 	color: white;
 	text-align: center;
 	height: auto;
 	z-index: 1100;
 	padding: 0.5em 0;
+	border-bottom: 5px solid #ffb3d9;
 }
 
 header div {
@@ -40,8 +41,9 @@ header div {
 footer {
 	text-align: center;
 	padding-top: 2em;
-	background-color: #5ea3c4;
+	background-image: linear-gradient(#5ea3c4, #224b5d);
 	font-weight: 400;
+	border-top: 5px solid #c7dfea;
 }
 
 .page-content h1 {
@@ -107,13 +109,13 @@ header ul {
 	font-size: 1.5em;
 	line-height: 1.6em;
 	font-weight: 400;
-	margin: 2.5em 0.5em 1em;
+	margin: 3.5em 0.5em 1em 1.5em;
 	padding: 0 0.7em;
-	border: 1px solid white;
 	text-align: center;
 	display: inline-block;
 	border-radius: 1.5em;
 	vertical-align: middle;
+	border: 1px solid white;
 }
 
 header li {
@@ -123,7 +125,7 @@ header li {
 }
 
 .menu-items {
-	background-color: #5ea3c4;
+	background-image: linear-gradient(#5ea3c4, #377795);
 	box-shadow: 1px 1px 3px #000;
 }
 
@@ -996,7 +998,7 @@ header li {
 
 @media only screen and (max-width: 1037px) {
 	header ul {
-		margin-top: 0.5em;
+		margin: 0.5em 0;
 	}
 
 	#avfd-logo {
