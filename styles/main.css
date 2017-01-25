@@ -21,6 +21,10 @@ html,body {
 
 body {
 	font-family: Lato, arial, sans-serif;
+	background-image: url('../images/rose-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 }
 
 header {
@@ -30,7 +34,6 @@ header {
 	height: auto;
 	z-index: 1100;
 	padding: 0.5em 0;
-	border-bottom: 5px solid #ffb3d9;
 }
 
 header div {
@@ -44,14 +47,6 @@ footer {
 	background-image: linear-gradient(#5ea3c4, #224b5d);
 	font-weight: 400;
 	border-top: 5px solid #c7dfea;
-}
-
-.page-content h1 {
-	font-family: hennypennyregular, times, serif;
-	font-size: 2em;
-	color: #ff66b3;
-	text-shadow: 1px 1px 0px #ff99cc, 2px 2px 0px #ff99cc, 3px 3px 0px #ff99cc, 5px 5px 4px #a6a6a6;
-	margin: 0 0 .5em 0;
 }
 
 h1 {
@@ -126,7 +121,7 @@ header li {
 
 .menu-items {
 	background-image: linear-gradient(#5ea3c4, #377795);
-	box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 2px 6px #000;
 }
 
 .menu-items a {
@@ -165,6 +160,8 @@ header li {
 .masthead {
 	width: 100%;
 	margin: 0px auto 0px auto;
+	border-top: 5px solid #ffb3d9;
+	border-bottom: 5px solid #ffb3d9;
 }
 
 .list-box {
@@ -211,12 +208,29 @@ header li {
 	cursor: pointer;
 }
 
-.page-content {
+.text-section {
 	width: 80%;
+	margin: 3em auto;
+	padding: 3em 1em 0 1em;
+	background-color: rgba(255, 255, 255, 0.55);
+	border: 3px solid white;
+	border-radius: 2em;
+}
+
+.text-section p {
 	font-size: 1.75em;
-	margin: 4em auto 2em auto;
 	line-height: 1.5em;
 	font-weight: 300;
+	margin: 0;
+	padding: 1em 0;
+}
+
+.text-section h1 {
+	font-family: hennypennyregular, times, serif;
+	font-size: 3.5em;
+	color: #5ea3c4;
+	text-shadow: 1px 1px 0px #306a82, 2px 2px 0px #306a82, 3px 3px 0px #306a82;
+	margin: 0 0 .5em 0;
 }
 
 .shop-text a {
@@ -956,7 +970,11 @@ header li {
 
 .test-section {
 	border: 1px solid transparent;
-	background-color: #ffb3da;
+	background-image: linear-gradient(#ff4da6, #ffb3d9);
+	border-top: 5px solid #ffb3d9;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
 }
 
 .test-extend {
@@ -968,7 +986,7 @@ header li {
 	font-family: hennypennyregular;
 	color: white;
 	text-align: center;
-	text-shadow: 1px 1px 0px #ff66b3, 2px 2px 0px #ff66b3, 3px 3px 0px #ff66b3;
+	text-shadow: 1px 1px 0px #cc0066, 2px 2px 0px #cc0066, 3px 3px 0px #cc0066;
 	margin: 0.5em 0;
 }
 
