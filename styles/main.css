@@ -211,18 +211,24 @@ header li {
 .text-section {
 	width: 80%;
 	margin: 3em auto;
-	padding: 3em 1em 0 1em;
-	background-color: rgba(255, 255, 255, 0.55);
-	border: 3px solid white;
+	padding: 3em 1em 3em 1em;
+	background-color: rgba(255, 255, 255, 1.0);
+	border: 3px solid #ffb3d9;
 	border-radius: 2em;
 }
 
-.text-section p {
+.text-section p, .text-section ul  {
 	font-size: 1.75em;
 	line-height: 1.5em;
 	font-weight: 300;
 	margin: 0;
-	padding: 1em 0;
+	padding: 0.5em 2em;
+	text-align: left;
+}
+
+.text-section ul {
+	list-style: none;
+	margin-left: 3em;
 }
 
 .text-section h1 {
