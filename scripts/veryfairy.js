@@ -166,20 +166,6 @@ $(document).ready(function() {
 
 	/* END CONTACT FORM AJAX */
 
-	/* START IMAGE SLIDER FOR HEADER */
-
-	$(".slider > div:gt(0)").hide();
-		setInterval(function() { 
-  			$('.slider > div:first')
-    		.fadeOut(1000)
-    		.next()
-    		.fadeIn(1000)
-    		.end()
-    		.appendTo('.slider');
-		},  3000);
-
-	/* END IMAGE SLIDER FOR HEADER */
-
 	/* START TESTIMONIAL SLIDER */
 
 	$(".testimonials > div:gt(0)").hide();

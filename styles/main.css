@@ -553,13 +553,14 @@ header li {
 	margin: 0 auto 4em auto;
 }
 
-.slider-container li {
+.slider-container ul, .slider-container li {
 	display: inline-block;
-}
+	max-width: 1000px;
+	margin: 0px auto;
+} 
 
 .slider-container img {
 	max-width: 100%;
-	display: inline-block;
 }
 
 /* Coming Soon */
