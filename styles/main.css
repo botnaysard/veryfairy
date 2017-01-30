@@ -252,7 +252,7 @@ header li {
 	bottom: 0;
 	left: 0;
 	background: black;
-	opacity: .65;
+	opacity: .75;
 	z-index: 1000;
 }
 
@@ -261,9 +261,6 @@ header li {
 .toggle {
 	display: none;
 }
-
-
-/*** RESUME CLEANUP HERE ***/
 
 .popup-text {
 	color: black;
@@ -277,23 +274,31 @@ header li {
 
 #close-overlay, #close-contact {
 	position: absolute;
-	top: 20px;
-	right: 20px;
 	display: block;
 	z-index: 1003;
-	color: black;
+	color: #ff66b3;
 	font-weight: 700;
-	font-size: 20px !important;
+	font-size: 25px !important;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	right: 20px;
+}
+
+#close-overlay {
+	top: 17px;
+}
+
+#close-contact {
+	top: -5px;	
 }
 
 #close-overlay:hover, #close-contact:hover {
 	cursor: pointer;
-	color: red;
+	color: #cc0066;
 }
 
-#close-contact {
-	top: -5px;
-}
+
 
 /* E-mail List Sign-up */
 
@@ -363,6 +368,12 @@ header li {
 
 /* MailChimp Form Embed Code - Slim - 12/15/2015 v10.7 */
 
+.mail-boots {
+	text-align: right;
+	margin-right: -200px;
+	margin-top: -75px;
+}
+
 #mc_embed_signup {
 	position: absolute;
 	top: 50%;
@@ -421,7 +432,7 @@ header li {
 	font-weight: 400;
 	font-size: 1.5em;
 	color: white;
-	background-color: #cc0066;
+	background-color: #ff66b3;
 	text-align: center; 
 	margin: 30px auto 30px auto;
 	border: none;
@@ -431,7 +442,7 @@ header li {
 
 #mc_embed_signup .button:hover {
 	color: white;
-	background-color: #ff66b3;
+	background-color: #cc0066;
 	cursor: pointer;
 }
 
@@ -516,23 +527,28 @@ header li {
 
 /* Contact Form */
 
+.contact-scroll {
+	border: 1px solid red;
+	text-align: right;
+}
+
 #contact-us {
-	border: 1px solid black;
-	border-radius: 15px;
-	width: 650px;
-	height: 600px;
-	margin: 0px auto;
-	padding: 0px;
-	background-color: white;
-	z-index: 1002;	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	background-color: white;
-	z-index: 1002;
+	position: absolute;
 	left: 0;
 	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 600px;
+	width: 650px;
+	border: 1px solid black;
+	border-radius: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	background-color: white;
+	z-index: 1002;	
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 0.9em;
 }
 
 #contact-us h3 {
@@ -584,7 +600,7 @@ header li {
 	width: 100px;
 	margin-top: 45px;
 	color: white;
-	background-color: #cc0066;
+	background-color: #ff66b3;
 	border: none;
 	height: 48px;
 	font-weight: 400;
@@ -594,7 +610,7 @@ header li {
 
 #contact-us input[type="submit"]:hover {
 	color: white;
-	background-color: #ff66b3;
+	background-color: #cc0066;
 	cursor: pointer;
 }
 

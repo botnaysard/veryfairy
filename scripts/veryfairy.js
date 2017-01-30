@@ -52,6 +52,7 @@ $(document).ready(function() {
 
 	$("#join-link").click(function(event){
 		$( "#dark-overlay" ).fadeIn( "slow", function() {
+			$('html').css('overflow', 'hidden');
 			$("#mc_embed_signup").show();
         	$("#close-overlay" ).show();
         	$("#close-overlay" ).click(function(){
@@ -103,10 +104,11 @@ $(document).ready(function() {
 	/* START CONTACT FORM POP-UP */
 
 		$("#initiate-contact, .contact-link, .bw-page-link").click(function(event){
-		$( "#dark-overlay" ).fadeIn( "slow", function() {
+		$( "#dark-overlay").fadeIn("slow", function() {
+			$('html').css('overflow', 'hidden');
 			$("#contact-us").show();
-        	$("#close-contact" ).show();
-        	$("#close-contact" ).click(function(){
+        	$("#close-contact").show();
+        	$("#close-contact").click(function(){
         		$("#contact-us").hide();
         		$("#dark-overlay" ).hide();
         		$("#close-contact" ).hide();
@@ -148,7 +150,7 @@ $(document).ready(function() {
                 _replyto:email,
                  email:email,
                 comments:comments,
-                _subject:'Correstpondence submitted from www.averyfairydoor.com',
+                _subject:'Correspondence submitted from www.averyfairydoor.com',
             },
             dataType:"json",
             success:function() {
