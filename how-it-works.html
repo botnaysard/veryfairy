@@ -22,240 +22,74 @@
 </head>
 <body>
 	<header>
-		<div id="avfd-logo">
+		<div class="flags-container">
+			<img src="images/flags.png">
+		</div>
+		<div class="flags-inverse">
+			<img src="images/flags.png">
+		</div>
+	</header>
+	<section class="top-navigation no-masthead">
+		<div class="avfd-logo">
 			<a href="index.html"><img src="images/vfd_title_600px.png" class="sparkles-large"></a>
 		</div>
-			<ul class="menu-items">
-				<li class="sparkles"><a href="how-it-works.html">How it Works</a></li>
-				<li class="sparkles"><a href="shop.html">Shop</a></li>
-				<li class="sparkles"><a href="press.html">Press</a></li>
-				<li id="initiate-contact" class="sparkles">Contact</li>
-				<li id="join-link" class="sparkles">Mailing List</li>
-			</ul>			
-	</header>
-	</section>
-	<section class="page-content">
-		<div class="content-text-centered text-section">
-			<h1>
-				How it Works
-			</h1>
-			<p>Insert instructions here...</p>
-			<p>A Very Fairy Door is a great parenting tool to help children.</p>
-			<p>Uses include:</p>
-			<ul>			
-				<li>Reward good behavior</li>
-				<li>Help with bedtime routines</li>
-				<li>Encourage creativity and kindness</li>
-				<li>Celebrate special occasions (i.e. birthdays, Valentine's Day, etc.)</li>
-				<li>Be a portal for the Tooth Fairy and holiday elves</li>
-				<li>Provide encouragement</li>
-				<li>Helps children to overcome fears (i.e. the dark, needles, etc.)</li>
-				<li>Facilitates imaginative play</li>
-				<li>Assists with difficult subjects (i.e. divorce, loss of a loved one)</li>
-				<li>Helps during times of illness</li>
-				<li>Facilitates potty training</li>
-				<li>Provides first day of school fun</li>
-				<li>Be a decoration</li>
-				<li>Captures childhood joy and wonder</li>
-				<li>Teaches children about doing good for others</li>
-				<li>Is always there when a friend is needed</li>
-				<li>Encourgages more family time and less screen time</li>
-				<li>Helps autistic and ADHD kids to focus</li>
-				<li>Most importantly, spreads love just because</li>
-			</ul>
-			<p>The possibilities for year round FUN are endless! A Very Fairy Door is a unique gift that sparks imaginations, encourages creativity and celebrates make believe.</p>
-			<div id="buy-now" class="sparkles-exception">
-				<div id='product-component-454d35ad137'></div>
-				<script type="text/javascript">
-				/*<![CDATA[*/
-
-				(function () {
-				  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-				  if (window.ShopifyBuy) {
-				    if (window.ShopifyBuy.UI) {
-				      ShopifyBuyInit();
-				    } else {
-				      loadScript();
-				    }
-				  } else {
-				    loadScript();
-				  }
-
-				  function loadScript() {
-				    var script = document.createElement('script');
-				    script.async = true;
-				    script.src = scriptURL;
-				    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-				    script.onload = ShopifyBuyInit;
-				  }
-
-				  function ShopifyBuyInit() {
-				    var client = ShopifyBuy.buildClient({
-				      domain: 'a-very-fairy-door.myshopify.com',
-				      apiKey: '909d2b6353ef72e5a4229481cab44d49',
-				      appId: '6',
-				    });
-
-				    ShopifyBuy.UI.onReady(client).then(function (ui) {
-				      ui.createComponent('product', {
-				        id: [7651367942],
-				        node: document.getElementById('product-component-454d35ad137'),
-				        moneyFormat: '%24%7B%7Bamount%7D%7D',
-				        options: {
-				  "product": {
-				    "buttonDestination": "cart",
-				    "variantId": "all",
-				    "width": "240px",
-				    "contents": {
-				      "img": false,
-				      "title": false,
-				      "variantTitle": false,
-				      "price": false,
-				      "description": false,
-				      "buttonWithQuantity": false,
-				      "quantity": false
-				    },
-				    "text": {
-				      "button": "BUY NOW"
-				    },
-				    "styles": {
-				      "product": {
-				        "@media (min-width: 601px)": {
-				          "max-width": "100%",
-				          "margin-left": "0",
-				          "margin-bottom": "50px"
-				        }
-				      },
-				      "button": {
-				      	"background-color": "#224b5d",
-				        "font-size": "28px",
-				        "padding-top": "17px",
-				        "padding-bottom": "17px",
-				        "padding-bottom": "17px",
-				        "padding-left": "17px",
-				        "padding-right": "17px",
-				        "color":"white",
-				        ":hover": {
-				          "background-color": "#5ea3c4",
-				          "color":"#white",	          
-				        },
-				        "border-radius": "15px",
-				        ":focus": {
-				          "background-color": "#5ea3c4"
-				        }
-				      },
-				      "title": {
-				        "font-size": "26px"
-				      },
-				      "price": {
-				        "font-size": "18px"
-				      },
-				      "quantityInput": {
-				        "font-size": "18px",
-				        "padding-top": "17px",
-				        "padding-bottom": "17px"
-				      },
-				      "compareAt": {
-				        "font-size": "15px"
-				      }
-				    }
-				  },
-				  "cart": {
-				    "contents": {
-				      "button": true
-				    },
-				    "text": {
-				      "total": "Total"
-				    },
-				    "styles": {
-				      "button": {
-				        "background-color": "#224b5d",
-				        "font-size": "18px",
-				        "padding-top": "17px",
-				        "padding-bottom": "17px",
-				        ":hover": {
-				          "background-color": "#5ea3c4"
-				        },
-				        "border-radius": "15px",
-				        ":focus": {
-				          "background-color": "#5ea3c4"
-				        }
-				      },
-				      "footer": {
-				        "background-color": "#ffffff"
-				      }
-				    }
-				  },
-				  "modalProduct": {
-				    "contents": {
-				      "variantTitle": false,
-				      "buttonWithQuantity": false,
-				      "quantity": false
-				    },
-				    "styles": {
-				      "product": {
-				        "@media (min-width: 601px)": {
-				          "max-width": "100%",
-				          "margin-left": "0px",
-				          "margin-bottom": "0px"
-				        }
-				      },
-				      "button": {
-				        "background-color": "#224b5d",
-				        "font-size": "18px",
-				        "padding-top": "17px",
-				        "padding-bottom": "17px",
-				        ":hover": {
-				          "background-color": "#5ea3c4"
-				        },
-				        "border-radius": "15px",
-				        ":focus": {
-				          "background-color": "#5ea3c4"
-				        }
-				      },
-				      "quantityInput": {
-				        "font-size": "18px",
-				        "padding-top": "17px",
-				        "padding-bottom": "17px"
-				      }
-				    }
-				  },
-				  "toggle": {
-				    "styles": {
-				      "toggle": {
-				        "background-color": "#224b5d",
-				        ":hover": {
-				          "background-color": "#5ea3c4"
-				        },
-				        ":focus": {
-				          "background-color": "#5ea3c4"
-				        }
-				      },
-				      "count": {
-				        "font-size": "18px"
-				      }
-				    }
-				  },
-				  "productSet": {
-				    "styles": {
-				      "products": {
-				        "@media (min-width: 601px)": {
-				          "margin-left": "-20px"
-				        }
-				      }
-				    }
-				  }
-				}
-				      });
-				    });
-				  }
-				})();
-				/*]]>*/
-				</script>
-			</div>
+		<div class="mobile-header sparkles-large">
+			<a href="index.html">A Very Fairy Door</a>
 		</div>
-		</section>		
+		<ul class="menu-items">
+			<li class="sparkles"><a href="how-it-works.html">How it Works</a></li>
+			<li class="sparkles"><a href="shop.html">Shop</a></li>
+			<li class="sparkles"><a href="about.html">About</a></li>
+			<li class="sparkles"><a href="press.html">Press</a></li>
+			<li class="sparkles" id="join-link">Mailing List</li>
+		</ul>
+	</section>
+	<section class="content-text-centered text-section">
+		<h1>
+			How it Works
+		</h1>
+			<p>A Very Fairy Door is a great parenting tool to help children through difficult transitions in their lives and to bring a little fairy fun into the home.</p>
+			<p>
+				Some uses include:<br>
+				<ul> 
+					<li>To reward good behaviours</li>
+					<li>To help with bedtime routines</li>
+					<li>To encourage creativity and kindness</li>
+					<li>To celebrate special occasions (i.e birthdays, Valentine's Day, etc)</li>
+					<li>Be a portal for the tooth fairy and holiday elves </li>
+					<li>To provide encouragement</li>
+					<li>To help children overcome fears (i.e the dark, needles, first day of school, etc.)</li>
+					<li>Facilitates imaginative play</li>
+					<li>Assists with difficult life changes (i.e divorce, move, loss of a loved one)</li>
+					<li>Helps during times of illness</li>
+					<li>Facilitates potty training</li>
+					<li>Provides first day of school fun </li>
+					<li>Is a great decoration for any room in the home or garden</li>
+					<li>Captures childhood joy and wonder</li>
+					<li>Teaches children about doing good for others</li>
+					<li>Encourages more family time and less screen time</li>
+					<li>Helps autistic and ADHD kids to focus</li>
+					<li>And helps to spread love just because!!!</li>
+					<li>The possibilities for year round FUN are endless! </li>
+				</ul>
+			</p>
+	</section>
+	<section class="bottom-stuff">
+		<div class="teddy-bear">
+			<img src="images/teddy.png">
+		</div>
+		<div class="boots">
+			<img src="images/boots.png">
+		</div>
+	</section>
 	<footer>
+		<div class="footer-menu">
+			<ul>
+				<li class="sparkles"><a href="questions.html">FAQ</a></li>
+				<li id="initiate-contact" class="sparkles">Contact</li>
+				<li class="sparkles"><a href="#">Find Us</a></li>
+			</ul>
+		</div>
 		<div class="footer-social">
 			<ul>
 				<li><a href="https://www.facebook.com/averyfairydoor"><i class="fa fa-facebook-official fa-3x sparkles"></i></a></li>
@@ -264,11 +98,15 @@
 				<li><a href="https://twitter.com/averyfairydoor"><i class="fa fa-twitter-square fa-3x sparkles"></i></a></li>
 			</ul>
 		</div>
+		<div class="fence-graphic">
+			<img src="images/fence.png">
+		</div>
 		<div class="very-bottom">
 			<p><strong><a href="privacy.html">Privacy Policy</a> | <a href="shipping.html">Shipping Policy</a></strong><br><br>Trademark &reg; 2017 A Very Fairy Door</p>
 		</div>
+
 	</footer>
-	
+
 	<!-- dialog boxes and pop-ups -->
 
 	<!-- dark overlay that lies behind the popups -->
@@ -291,17 +129,15 @@
 				Sign up for contests, giveaways and very fairy fun! Be the first to know about all things new and happening!
 			</div>
 	    </form>
-	    <div id="notification_container"></div>
-	    <div class="mail-boots">
-	    	<img src="images/boots.png">
+	    <div id="notification_container">    	
 	    </div>
   	</div>
 
   	<!-- END MailChimp Sign-up-->
-
+  	
     <!-- START Contact Form -->
  
-	 <div id="contact-us" class="toggle">
+	<div id="contact-us" class="toggle">
  		<div id="close-contact" class="toggle">X</div>
  		<h3 id="contact-header">Contact Us</h3>
  		<div id="formBlock">
@@ -312,7 +148,7 @@
 	            <input type="email" id="email"><br/>
 	            <label for="comments">Comments:</label>
 	            <textarea id="comments"></textarea>
-	        	<input type="submit" value="Go!">
+	        	<input type="submit">
          	</form>
      	</div>
      	<div id="thankyouBlock" style="display:none">
@@ -323,6 +159,6 @@
    	</div>
  
  	<!-- END Contact Form -->
-	
+
 </body>
 </html>

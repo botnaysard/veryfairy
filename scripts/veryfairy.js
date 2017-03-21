@@ -104,11 +104,11 @@ $(document).ready(function() {
 	/* START CONTACT FORM POP-UP */
 
 		$("#initiate-contact, .contact-link, .bw-page-link").click(function(event){
-		$( "#dark-overlay").fadeIn("slow", function() {
+		$( "#dark-overlay" ).fadeIn( "slow", function() {
 			$('html').css('overflow', 'hidden');
 			$("#contact-us").show();
-        	$("#close-contact").show();
-        	$("#close-contact").click(function(){
+        	$("#close-contact" ).show();
+        	$("#close-contact" ).click(function(){
         		$("#contact-us").hide();
         		$("#dark-overlay" ).hide();
         		$("#close-contact" ).hide();
@@ -150,7 +150,7 @@ $(document).ready(function() {
                 _replyto:email,
                  email:email,
                 comments:comments,
-                _subject:'Correspondence submitted from www.averyfairydoor.com',
+                _subject:'Correstpondence submitted from www.averyfairydoor.com',
             },
             dataType:"json",
             success:function() {
@@ -167,6 +167,20 @@ $(document).ready(function() {
 }); 
 
 	/* END CONTACT FORM AJAX */
+
+	/* START IMAGE SLIDER FOR HEADER */
+
+	$(".slider > div:gt(0)").hide();
+		setInterval(function() { 
+  			$('.slider > div:first')
+    		.fadeOut(1000)
+    		.next()
+    		.fadeIn(1000)
+    		.end()
+    		.appendTo('.slider');
+		},  3000);
+
+	/* END IMAGE SLIDER FOR HEADER */
 
 	/* START TESTIMONIAL SLIDER */
 
