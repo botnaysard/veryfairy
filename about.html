@@ -22,20 +22,14 @@
 </head>
 <body>
 	<header>
-		<div class="flags-container">
+				<div class="flags-container">
 			<img src="images/flags.png">
 		</div>
-		<div class="pre-order-top sparkles-exception">
-			<a href="shop.html">A Very Fairy Door is available now! Take me to the shop! <i class="fa fa-hand-o-right"></i></a>
-		</div>
-		<div class="list-box">
-			<img src="images/list.png">
-		</div>
-		<div id="join-list" class="sparkles">
-			Join our mailing list!
+		<div class="flags-inverse">
+			<img src="images/flags.png">
 		</div>
 	</header>
-	<section class="top-navigation">
+	<section class="top-navigation no-masthead">
 		<div class="avfd-logo">
 			<a href="index.html"><img src="images/vfd_title_600px.png" class="sparkles-large"></a>
 		</div>
@@ -47,28 +41,22 @@
 			<li class="sparkles"><a href="shop.html">Shop</a></li>
 			<li class="sparkles"><a href="about.html">About</a></li>
 			<li class="sparkles"><a href="press.html">Press</a></li>
-			<li class="sparkles mobile-mailing">Mailing List</li>
+			<li class="sparkles" id="join-link">Mailing List</li>
 		</ul>
 	</section>
-	<section class="masthead">
-		<img src="images/slider/4.jpg">
-	</section>
-	<section class="page-content">
-		<div class="content-text-centered">
-			<h1>
-				About
-			</h1>
-		</div>
-		<div class="content-text-left">
-			<p>
-				On the road to recovery from cancer I thought about the past year, about the lost time with my daughter, and of the precious moments we were able to share during the most difficult times. These moments all seemed to center around her fairy door. When she wouldn't sleep in her own room, because she was scared of the dark and missed her mom, the fairies helped. When she was going through tough toddler transitions like potty training, not hitting, cleaning up her toys, getting needles, the fairies would visit to brighten her day and encourage good behaviours. When I needed a way to stay busy, we'd interact with our fairies by making drawings and leaving notes by the door for them. The best part is she continues to use her imaginiation, and brings the fairy world to life each day!
-			</p> 
-			<p>
-				This has been one of the best parenting tool for me. I couldn't help but think of the countless ways it could help others too, especially children who are sick themselves. I just had to share this story with the world; and wrote a book about sweet little fairies that can visit through A Very Fairy Door. The characters are beautiful, magical and innocent (as fairies should be) thanks to Krista Smith, and the fairy doors (designed by my mom Kim) are extra special too, they can be hung on any wall, or outdoor space and be cherished as a long life keepsake.
-			<p> 
-				Seeing the joy and excitement in little one’s eyes after a fairy has visited is priceless! We donate 5% of all ordered books to The Children's Hospital of Eastern Ontario (CHEO), to bring happiness to those who need it most! A Very Fairy Door has brought so many magical memories to our home. I'd like to extend the magic from our home to yours, to bring excitement, and lasting memories for years to come!
-			</p>
-		</div>
+	<section class="content-text-centered text-section">
+		<h1>
+			About
+		</h1>
+		<p>
+			On the road to recovery from cancer I thought about the past year, about the lost time with my daughter, and of the precious moments we were able to share during the most difficult times. These moments all seemed to center around her fairy door. When she wouldn't sleep in her own room, because she was scared of the dark and missed her mom, the fairies helped. When she was going through tough toddler transitions like potty training, not hitting, cleaning up her toys, getting needles, the fairies would visit to brighten her day and encourage good behaviours. When I needed a way to stay busy, we'd interact with our fairies by making drawings and leaving notes by the door for them. The best part is she continues to use her imaginiation, and brings the fairy world to life each day!
+		</p> 
+		<p>
+			This has been one of the best parenting tool for me. I couldn't help but think of the countless ways it could help others too, especially children who are sick themselves. I just had to share this story with the world; and wrote a book about sweet little fairies that can visit through A Very Fairy Door. The characters are beautiful, magical and innocent (as fairies should be) thanks to Krista Smith, and the fairy doors (designed by my mom Kim) are extra special too, they can be hung on any wall, or outdoor space and be cherished as a long life keepsake.
+		<p> 
+			Seeing the joy and excitement in little one’s eyes after a fairy has visited is priceless! We donate 5% of all ordered books to The Children's Hospital of Eastern Ontario (CHEO), to bring happiness to those who need it most! A Very Fairy Door has brought so many magical memories to our home. I'd like to extend the magic from our home to yours, to bring excitement, and lasting memories for years to come!
+		</p>
+
 	</section>
 	<section class="bottom-stuff">
 		<div class="teddy-bear">
@@ -124,7 +112,9 @@
 				Sign up for contests, giveaways and very fairy fun! Be the first to know about all things new and happening!
 			</div>
 	    </form>
-	    <div id="notification_container">    	
+	    <div id="notification_container"></div>
+	    <div class="mail-boots">
+	    	<img src="images/boots.png">
 	    </div>
   	</div>
 
@@ -143,7 +133,7 @@
 	            <input type="email" id="email"><br/>
 	            <label for="comments">Comments:</label>
 	            <textarea id="comments"></textarea>
-	        	<input type="submit">
+	        	<input type="submit" value="Go!">
          	</form>
      	</div>
      	<div id="thankyouBlock" style="display:none">
