@@ -265,6 +265,31 @@ span.nowrap {
 	padding: 0 2em;
 }
 
+.shop-prod-desc {
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.shop-prod-desc h3 {
+	font-size: 2em;
+	padding-bottom: 1em;
+}
+
+.shop-section {
+	width: 100%;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-radius: 0;
+	margin-top: 0;
+	padding-bottom: 5em;
+}
+
+.shop-masthead-border {
+	border-bottom: none;
+}
+
 .shop-text a {
 	color: #5ea3c4;
 	cursor: pointer;
@@ -602,11 +627,9 @@ span.nowrap {
 .shop-header {
 	width: 100%;
 	text-align: center;
-	font-size: 2em;
+	font-size: 3.5em;
 	color: #5ea3c4;	
-	text-shadow: #377795;
 	font-family: hennypennyregular, times, serif;
-	text-shadow: 1px 1px 0px #377795, 2px 2px 0px #377795, 3px 3px 0px #377795, 5px 5px 4px #377795;
 	margin: 0px auto 0px auto;
 }
 
@@ -960,6 +983,10 @@ span.nowrap {
 
 /* Shopify */
 
+.hide-shopify-button {
+	display: none;
+}
+
 .shopify-button {
 	width: 213px;
 	margin: 25px auto 70px auto;
@@ -1043,180 +1070,4 @@ span.nowrap {
 	margin: 0px auto;
 	position: relative;	
 	display: block;
-}
-
-
-
-/* MEDIA QUERIES FOR RESPONSIVE */
-
-@media only screen and (max-width: 1250px) {
-	
-	.list-box, .flags-container, #join-list {
-		display: none;
-	}
-	
-	.mobile-mailing {
-		visibility: visible;
-		display: inline-block;
-	}
-
-	.mobile-mailing:hover {
-		cursor: pointer;
-		color: #ff99cc;
-	}
-
-	.menu-items {
-		width: 100%;
-	}
-
-	.avfd-logo {
-		width: 800px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-}
-
-@media only screen and (max-width: 1189px) {
-
-	.footer-menu {
-		width: 70%;
-	}
-
-	.menu-items {
-		max-width: 600px;
-	}
-
-	.testimonials > div {
-		width: 1000px;
-		margin-left: -500px;
-		left: 50%;
-	}
-	
-}
-
-@media only screen and (max-width: 1065px) {
-
-	.bottom-stuff, .test-extend {
-		display: none;
-	}
-
-	.faceleft::before, .faceright::before {
-	    display: none;
-	    visibility: hidden;  
-	}
-
-	.bubble {
-		margin: 15px 0px 25px 0px;
-		width: auto;
-	}
-
-	.fairy-toggle {
-		display: none;
-		visibility: hidden;
-	}
-
-	.contact-table {
-		margin-bottom: 50px;
-	}
-
-	.footer-social {
-		width: 75%;
-	}
-
-	.contact-col {
-		display: block;
-		height: auto;
-	}
-
-	
-	.contact-box {
-		width: 445px;
-	}
-
-	.testimonials > div {
-		width: 900px;
-		margin-left: -450px;
-		left: 50%;
-	}
-
-	.poem {
-		font-size: 1.4em;
-	}
-}
-
-@media only screen and (max-width: 920px) {
-	
-	.avfd-logo {
-		visibility: hidden;
-		display: none;
-	}
-
-	.mobile-header {
-		display: block;
-		visibility: visible;
-		position: relative;
-		font-family: hennypennyregular;
-		font-size: 72px;
-		width: 100%;
-		text-align: center;
-		color: #5ea3c4;
-		text-shadow: 1px 1px 0px #ffcce6, 2px 2px 0px #ffcce6, 3px 3px 0px #ffcce6;
-	}
-
-	.legal-header-mobile {
-		display: block;
-		visibility: visible;
-		position: relative;
-		font-family: hennypennyregular;
-		font-size: 72px;
-		width: 100%;
-		text-align: center;
-		color: black;
-	}
-
-	.legal-header-mobile a {
-		text-decoration: none;
-		color: black;
-	}
-
-	.shop-header {
-		font-size: 24px;
-		margin-top: 1em;
-	}
-
-	.mobile-header a {
-		text-decoration: none;
-		color: #5ea3c4;
-	}
-
-	.mobile-header a:visited {
-		color: #5ea3c4;
-	}
-
-	.testimonials > div {
-		width: 800px;
-		margin-left: -400px;
-		left: 50%;
-	}
-}
-
-@media only screen and (max-width: 720px) {
-
-	.mobile-header, .legal-header-mobile {
-		font-size: 48px;
-	}
-
-	.footer-social {
-		width: 75%;
-	}
-
-	.footer-menu {
-		width: 100%;
-	}
-
-	.testimonials > div {
-		width: 650px;
-		margin-left: -325px;
-		left: 50%;
-	}
 }
