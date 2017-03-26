@@ -26,6 +26,11 @@ body {
     background-position: center; 
 }
 
+.no-image-body {
+	background-color: white;
+	background-image: none;
+}
+
 header {
 	height: 30px;
 	font-weight: 300;
@@ -91,15 +96,20 @@ span.nowrap {
 }
 
 .avfd-logo {
+	display: inline-block;
 	width: 100%;
 	padding: 0px;
-	margin: 0px;
+	margin: 0px auto;
 	text-align: center;
 }
 
 .avfd-logo a {
 	text-decoration: none;
 	cursor: pointer;
+}
+
+.avfd-logo img {
+	max-width: 100%;
 }
 
 .menu-items {
@@ -359,9 +369,8 @@ span.nowrap {
 }
 
 .footer-menu, .footer-social {
-	width: 40%;
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;
+	border: 1px solid transparent;
 }
 
 .footer-menu {
