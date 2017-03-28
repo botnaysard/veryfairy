@@ -524,7 +524,7 @@ span.nowrap {
 	display: block;
 }
 
-#close-overlay, #close-contact {
+#close-overlay, #close-contact, #close-wholesale {
 	position: absolute;
 	display: block;
 	z-index: 1003;
@@ -545,7 +545,7 @@ span.nowrap {
 	top: -5px;	
 }
 
-#close-overlay:hover, #close-contact:hover {
+#close-overlay:hover, #close-contact:hover, #close-wholesale:hover {
 	cursor: pointer;
 	color: #cc0066;
 }
@@ -874,13 +874,12 @@ span.nowrap {
 	text-align: right;
 }
 
-#contact-us {
+#contact-us, #wholesale-login {
 	position: absolute;
 	left: 0;
 	right: 0;
 	top: 50%;
 	transform: translateY(-50%);
-	height: 600px;
 	width: 650px;
 	border: 1px solid black;
 	border-radius: 15px;
@@ -893,7 +892,15 @@ span.nowrap {
 	font-size: 0.9em;
 }
 
-#contact-us h3 {
+#contact-us {
+	height: 600px;
+}
+
+#wholesale-login {
+	height: 255px;
+}
+
+#contact-us , #wholesale-login h3 {
 	font-size: 25px;
 	text-align: center;
 	padding-top: 25px;
@@ -903,20 +910,23 @@ span.nowrap {
 	padding: 10px 0px;
 }
 
-#contact-us form {
+#formBlock-w {
+	padding: 40px 0px;
+}
+
+#contact-us form, #wholesale-login form {
 	width: 600px;
 	margin: 0px auto;
 }
 
-#contact-us input, #contact-us textarea, #contact-us label {
+#contact-us input, #contact-us textarea, #contact-us label, #wholesale-login input, #wholesale-login textarea, #wholesale-login label {
 	display: block;
 	width: 85%;
 	margin: 0px auto;
 	border-radius: 5px;
-
 }
 
-#contact-us div {
+#contact-us div, #wholesale-login div {
 	margin-top: 22px;
 	font-size: 24px;
 	text-align: center;
@@ -927,18 +937,27 @@ span.nowrap {
 	margin-bottom: 4px;
 }
 
+#wholesale-login label {
+	margin-bottom: 20px;
+}
+
 #contact-us textarea {
 	height: 120px;
 	margin: 0px auto;
 }
 
-#contact-us input, #contact-us textarea {
+#wholesale-login textarea {
+	height: 1.5em;
+	text-align: center;
+}
+
+#contact-us input, #contact-us textarea, #wholesale-login input, #wholesale-login {
 	background-color: white;
 	border: 1px solid black;
 	padding: 5px;
 }
 
-#contact-us input[type="submit"] {
+#contact-us input[type="submit"], #wholesale-login input[type="submit"] {
 	width: 100px;
 	margin-top: 45px;
 	color: white;
@@ -950,17 +969,21 @@ span.nowrap {
 	border-radius: 7px;
 }
 
-#contact-us input[type="submit"]:hover {
+#wholesale-login input[type="submit"] {
+	margin-top: 25px;
+}
+
+#contact-us input[type="submit"]:hover, #wholesale-login input[type="submit"]:hover  {
 	color: white;
 	background-color: #cc0066;
 	cursor: pointer;
 }
 
-#initiate-contact {
+#initiate-contact, #access-wholesale {
 	color: white;
 }
 
-#initiate-contact:hover {
+#initiate-contact:hover, #access-wholesale:hover {
 	color: white;
 	cursor: pointer;
 	text-shadow: 1px 1px 10px white;

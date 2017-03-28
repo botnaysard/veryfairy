@@ -168,6 +168,30 @@ $(document).ready(function() {
 
 	/* END CONTACT FORM AJAX */
 
+	/* START WHOLESALE ACCESS */
+
+	$("#access-wholesale").click(function(event){
+		$( "#dark-overlay" ).fadeIn( "slow", function() {
+			$('html').css('overflow', 'hidden');
+			$("#wholesale-login").show();
+        	$("#close-wholesale" ).show();
+        	$("#close-wholesale" ).click(function(){
+        		$("#wholesale-login").hide();
+        		$("#dark-overlay" ).hide();
+        		$("#close-wholesale" ).hide();
+    		});
+    		$('body').on('keydown', function(e){
+ 	  	  		if(e.keyCode == 27) {
+        			$("#wholesale-login").hide();
+        			$("#dark-overlay").hide();
+        			$("#close-wholesale").hide();
+ 	  			};
+ 	  		});    		
+  		});
+	});
+
+	/* END WHOLESALE ACCESS */
+
 	/* START IMAGE SLIDER FOR HEADER */
 
 	$(".slider > div:gt(0)").hide();
