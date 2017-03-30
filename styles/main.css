@@ -919,7 +919,7 @@ span.nowrap {
 	margin: 0px auto;
 }
 
-#contact-us input, #contact-us textarea, #contact-us label, #wholesale-login input, #wholesale-login textarea, #wholesale-login label {
+#contact-us input, #contact-us textarea, #contact-us label, #wholesale-login input, #wholesale-login input[type="password"], #wholesale-login label {
 	display: block;
 	width: 85%;
 	margin: 0px auto;
@@ -946,7 +946,7 @@ span.nowrap {
 	margin: 0px auto;
 }
 
-#wholesale-login textarea {
+#wholesale-login input[type="password"] {
 	height: 1.5em;
 	text-align: center;
 }

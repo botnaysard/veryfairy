@@ -138,8 +138,6 @@ $(document).ready(function() {
         var email = $('#email').val();
         //get the comments
         var comments = $('#comments').val();
-                    
-        //pretend we don't need validation
         
         //send to formspree
         $.ajax({
@@ -189,6 +187,25 @@ $(document).ready(function() {
  	  		});    		
   		});
 	});
+
+	function doshake () {
+		$("#passentry").effect( "shake", {times:5}, 650 );
+	}
+
+	function delayshake() {
+		$('#passentry').val("");
+	}
+
+	$('#someForm-w').on('submit', function(f) {
+        f.preventDefault();
+        var pword = $('#passentry').val();
+        if(pword == "fairybox2017") {
+        	window.location.href = "http://www.scotthayward.io";
+        } else {
+        	doshake(); 
+        	setTimeout(delayshake, 650);
+        }
+	}); 
 
 	/* END WHOLESALE ACCESS */
 
