@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="styles/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="scripts/jquery-canvas-sparkles.min.js"></script>
 	<script type="text/javascript" src="scripts/veryfairy.js"></script>
 	<meta charset="UTF-8">
@@ -390,6 +392,7 @@
 				<li class="sparkles"><a href="questions.html">FAQ</a></li>
 				<li id="initiate-contact" class="sparkles">Contact</li>
 				<li class="sparkles"><a href="#">Find Us</a></li>
+				<li id="access-wholesale" class="sparkles">Wholesale</li>
 			</ul>
 		</div>
 		<div class="footer-social">
@@ -462,13 +465,21 @@
    	</div>
  
  	<!-- END Contact Form -->
-	
-</body>
 
-<!-- end new body -->
+ 	<!-- START Wholesale Access -->
+ 	
+	<div id="wholesale-login" class="toggle">
+ 		<div id="close-wholesale" class="toggle">X</div>
+ 		<div id="formBlock-w">
+         	<form id="someForm-w">
+	            <label for="passentry">Please enter your wholesale password:</label>
+	            <input type="password" id="passentry"></input>
+	        	<input type="submit" value="Login">
+         	</form>
+     	</div>
+   	</div>
 
-<body>
-
+ 	<!-- END Wholesale Access -->
 	
 </body>
 </html>
