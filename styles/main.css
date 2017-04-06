@@ -224,8 +224,6 @@ a {
 	padding: 0 2em;
 }
 
-/* HERE */
-
 .shop-prod-desc {
 	width: 65%;
 	margin-left: auto;
@@ -249,15 +247,6 @@ a {
 
 .shop-masthead-border {
 	border-bottom: none;
-}
-
-.shop-text a {
-	color: #5ea3c4;
-	cursor: pointer;
-}
-
-.shop-text a:hover {
-	color: #ff66b3;
 }
 
 .content-text-centered {
@@ -284,11 +273,6 @@ a {
 
 .very-small-text {
 	font-size: 0.5em;
-}
-
-.flourish-center {
-	width: 616px;
-	margin: 0 auto 0 auto;
 }
 
 .bottom-stuff {
@@ -360,55 +344,6 @@ a {
 	text-shadow: 1px 1px 10px white;
 }
 
-.coming-soon-row {
-	width: 1000px;
-	margin-left: auto; 
-	margin-right: auto;
-	margin-bottom: 20px;	
-}
-
-.contact-box {
-	width: 950px;
-	font-size: 1.75em;
-	margin: 2em auto;
-	line-height: 1.5em;
-	font-weight: 300;
-}
-
-.contact-col {
-	display: inline-block;
-	width:440px;
-	height: 431px;
-	padding: 0px 15px;
-}
-
-.bubble {
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 0 0 6px #B2B2B2;
-    display: inline-block;
-    padding: 10px 18px;
-    position: relative;
-    vertical-align: top;
-    width: 400px;
-    
-}
-
-.bubble::before {
-    background-color: white;
-    content: "\00a0";
-    display: block;
-    height: 16px;
-    position: absolute;
-    top: 70px;
-    transform:             rotate( 29deg ) skew( -35deg );
-        -moz-transform:    rotate( 29deg ) skew( -35deg );
-        -ms-transform:     rotate( 29deg ) skew( -35deg );
-        -o-transform:      rotate( 29deg ) skew( -35deg );
-        -webkit-transform: rotate( 29deg ) skew( -35deg );
-    width:  20px;
-}
-
 .very-bottom {
 	height: 150px;
   	background-color: #5ea3c4;
@@ -430,18 +365,6 @@ a {
 
 .very-bottom a:hover {
 	text-decoration: underline;
-}
-
-.funstuff {
-	width: 85%;
-	margin: 0px auto 0px auto;
-}
-
-.funstuff-thumb {
-	display: inline-block;
-	width: 410px;
-	margin: 0px auto 50px auto;
-	border: 1px solid #aaa;
 }
 
 /* START POPUPS */
@@ -573,15 +496,6 @@ a {
 	margin: 0 auto 6em auto;
 }
 
-/* Coming Soon */
-
-.coming-container {
-	height: auto;
-	margin: 150px auto 250px auto;
-	width: 100%;
-}
-
-
 /* Shop */ 
 
 .shop-header {
@@ -591,62 +505,6 @@ a {
 	color: #5ea3c4;	
 	font-family: hennypennyregular, times, serif;
 	margin: 0px auto 0px auto;
-}
-
-.shop-header h1 {
-	margin: -20px 0 -15px 0;
-}
-
-.shop-text {
-	font-size: 1.4em;
-	text-align: left;
-	width: 60%;
-}
-
-.shop-bottom {
-	font-family: Lato, arial, sans-serif;
-	margin: 1em auto 1em auto;
-	width: 100%;
-	text-align: center;
-	font-weight: 300;
-}
-
-.shop-bottom a {
-	text-decoration: none;
-	color: #222;
-}
-
-.shop-bottom a:hover {
-	text-decoration: underline;
-}
-
-.shop-social {
-	width: 420px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10em;
-}
-
-.shop-social ul { 
-	padding: 0px;
-	list-style-type: none;
-	width: 100%;
-	text-align: center;
-}
-
-.shop-social li {
-	display: inline-block;
-	margin: 0px 15px;
-}
-
-.shop-social a {
-	text-decoration: none;
-	color: #ccc;
-}
-
-.shop-social a:hover {
-	color: #666;
-	cursor: pointer;
 }
 
 .mobile-mailing {
