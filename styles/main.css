@@ -133,6 +133,7 @@ a {
 	position: absolute;
 	top: 5px;
 	left: 0px;
+	z-index: 999;
 }
 
 .flags-inverse {
@@ -145,6 +146,7 @@ a {
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH";
+    z-index: 999;
 }
 
 .masthead {
@@ -224,29 +226,22 @@ a {
 }
 
 .shop-prod-desc {
-	width: 65%;
+	width: 85%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .shop-prod-desc h3 {
 	font-size: 2em;
-	padding-bottom: 1em;
+	padding: 1em 0;
 }
 
-.shop-section {
-	width: 100%;
-	border-left: none;
-	border-right: none;
-	border-top: none;
-	border-radius: 0;
-	margin-top: 0;
-	padding-top: 15em;
-	padding-bottom: 5em;
-}
 
 .shop-masthead-border {
-	border-bottom: none;
+	border: none;
+	padding-bottom: 0px;
+	display: inline-block;
+	position: relative;
 }
 
 .content-text-centered {
@@ -493,13 +488,18 @@ a {
 	color: black;
 }
 
-/* Slider */
+/* Slider */max
 
 .slider-container {
-	width: 1000px;
-	height: 620px;
-	margin: 0 auto 6em auto;
+	width: 80%;
+	height: auto;
+	margin: 0 auto 10em auto;
+	background-color: white;
 	/* this is the shop slider */
+}
+
+.slider-container img {
+	max-width: 100%;
 }
 
 /* Shop */ 
@@ -933,10 +933,18 @@ a {
 	display: block;
 }
 
+.no-wrap {
+	display: inline-block;
+}
+
+.no-border {
+	border: none;
+}
+
 /* Media queries */
 
 @media screen 
-  and (max-width: 1200px) 
+  and (max-width: 1175px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 	.flags-container, .flags-inverse {
 		display: none;
@@ -968,5 +976,8 @@ a {
 	.testimonials > div {
 		width: 480px;
 		margin-left: -240px;
+	}
+	.text-section {
+		width: 90%;
 	}
 }
