@@ -150,7 +150,7 @@ a {
 }
 
 .masthead {
-	height: 400px;
+	height: 500px;
 	margin: 0px auto 0px auto;
 	padding: 3em 0 5em 0;
 	background-color: white;
@@ -233,7 +233,7 @@ a {
 
 .shop-prod-desc h3 {
 	font-size: 2em;
-	padding: 1em 0;
+	padding: 0.5em 0;
 }
 
 
@@ -504,6 +504,42 @@ a {
 
 /* Shop */ 
 
+.index-buy-button {
+	width: 150px;
+	height: 60px;
+	z-index: 1004;
+	background-color: #ff66b3;
+	margin: -50px auto 20px auto;
+	transition: all 0.23s ease-in-out 0s;
+}
+
+.index-buy-button:hover {
+	background-color: #e65ca1;
+	transition: all 0.23s ease-in-out 0s;
+}
+
+.index-buy-button > p {
+	height: 100%;
+	font-family: lato, arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 15px;
+	border: none;
+
+}
+
+#clickthrough {
+	display: block;
+	width: 100%;
+}
+
+.button-link {
+	text-decoration: none; 	
+}
+
 .shop-header {
 	width: 100%;
 	text-align: center;
@@ -511,6 +547,10 @@ a {
 	color: #5ea3c4;	
 	font-family: hennypennyregular, times, serif;
 	margin: 0px auto 0px auto;
+}
+
+#skinny-h3 {
+	font-weight: 300;
 }
 
 .mobile-mailing {
@@ -836,7 +876,7 @@ a {
 
 .shopify-button {
 	width: 213px;
-	margin: 25px auto 70px auto;
+	margin: 10px auto 20px auto;
 	text-align: center;
 	padding-top: 30px;
 }
@@ -872,7 +912,9 @@ a {
 /* Image slider and testimonials */
 
 .slider {
-
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 
 .centerizer-1 {
