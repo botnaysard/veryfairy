@@ -127,7 +127,7 @@ $(document).ready(function() {
 
 	/* START CONTACT FORM AJAX */
 
-	$(document).ready(function() {
+$(document).ready(function() {
 
     $('#someForm').on('submit', function(e) {
         e.preventDefault();
